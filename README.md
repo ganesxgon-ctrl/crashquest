@@ -1,5 +1,7 @@
 # CrashQuest
 
+[![CI](https://github.com/ganesxgon-ctrl/crashquest/actions/workflows/ci.yml/badge.svg)](https://github.com/ganesxgon-ctrl/crashquest/actions/workflows/ci.yml)
+
 CrashQuest is an open-source troubleshooting assistant for online game crash errors and error codes.
 
 The MVP is a TypeScript CLI that:
