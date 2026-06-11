@@ -1,0 +1,47 @@
+[
+  {
+    "game": "Steam Common",
+    "code": "0XC000007B",
+    "aliases": ["0xc000007b", "The application was unable to start correctly 0xc000007b", "Steam game 0xc000007b"],
+    "category": "Windows runtime dependency",
+    "summary": "Error 0xc000007b usually indicates a Windows application failed to load compatible runtime components, often because of missing, damaged, or mismatched Visual C++, DirectX, or .NET dependencies.",
+    "likelyCauses": [
+      "Missing or corrupted Microsoft Visual C++ Redistributable packages.",
+      "Missing DirectX runtime components used by older games.",
+      "Corrupted game files or incomplete Steam installation.",
+      "Mixed 32-bit and 64-bit DLL files placed manually in the game folder."
+    ],
+    "safeFixes": [
+      "Restart Windows and try launching the game again from Steam.",
+      "Use Steam's Verify integrity of game files option for the affected game.",
+      "Install or repair Microsoft Visual C++ Redistributables from Microsoft's official download pages.",
+      "Install DirectX End-User Runtime components from Microsoft if the game requires legacy DirectX files.",
+      "Install pending Windows updates and restart.",
+      "Remove manually downloaded DLL files from the game folder if they were added from unofficial sources, then verify game files again."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download individual DLL files from random DLL websites.",
+      "Do not replace files in System32 or SysWOW64 with unofficial copies.",
+      "Do not run unknown all-in-one fixer executables.",
+      "Do not reinstall Windows before repairing official runtimes and verifying game files."
+    ],
+    "officialSearchQueries": [
+      "Steam verify integrity of game files support",
+      "Microsoft Visual C++ Redistributable latest supported downloads",
+      "Microsoft DirectX End-User Runtime Web Installer",
+      "Microsoft error 0xc000007b application unable to start correctly"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com/r/Steam 0xc000007b game",
+      "site:reddit.com/r/pcgamingtechsupport 0xc000007b Steam"
+    ],
+    "youtubeSearchQueries": [
+      "Steam game 0xc000007b official runtime fix",
+      "0xc000007b Visual C++ DirectX safe fix"
+    ],
+    "googleSearchQueries": [
+      "Steam 0xc000007b safe fix Visual C++ DirectX",
+      "The application was unable to start correctly 0xc000007b Steam game"
+    ]
+  }
+]

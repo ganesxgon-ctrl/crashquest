@@ -1,0 +1,47 @@
+[
+  {
+    "game": "Minecraft Java Edition",
+    "code": "EXIT CODE 1",
+    "aliases": ["Exit code 1", "Minecraft exit code 1", "Java exit code 1"],
+    "category": "Java runtime, mods, or launcher configuration",
+    "summary": "Minecraft Java exit code 1 is a generic crash result. It often points to a Java mismatch, incompatible mods, graphics driver issues, or a broken launcher profile.",
+    "likelyCauses": [
+      "A mod or mod loader version does not match the Minecraft version.",
+      "The selected Java runtime is incompatible with the Minecraft version.",
+      "Graphics drivers are outdated or unstable.",
+      "Launcher arguments or allocated memory settings are invalid."
+    ],
+    "safeFixes": [
+      "Launch the same Minecraft version with no mods to confirm whether the base game starts.",
+      "Update the Minecraft Launcher and use the bundled Java runtime unless a modpack requires a specific official Java version.",
+      "Move mods out of the mods folder, then add them back in small groups to isolate the failing mod.",
+      "Check that Forge, Fabric, Quilt, and mod versions match the Minecraft version.",
+      "Update GPU drivers from NVIDIA, AMD, Intel, or the device manufacturer's official website.",
+      "Reset custom JVM arguments in the launcher profile."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download Java builds from unknown mirrors.",
+      "Do not install random modpack fixers or launchers from unofficial ads.",
+      "Do not share Microsoft account tokens or launcher logs containing private paths without review.",
+      "Do not delete saves before making backups."
+    ],
+    "officialSearchQueries": [
+      "Minecraft help exit code 1 Java Edition",
+      "Minecraft Launcher troubleshooting Java runtime",
+      "Fabric Minecraft version compatibility",
+      "Minecraft Forge version compatibility"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com/r/MinecraftHelp exit code 1 Java",
+      "site:reddit.com/r/feedthebeast exit code 1 modpack"
+    ],
+    "youtubeSearchQueries": [
+      "Minecraft Java exit code 1 mod compatibility safe fix",
+      "Minecraft exit code 1 bundled Java launcher fix"
+    ],
+    "googleSearchQueries": [
+      "Minecraft Java exit code 1 safe troubleshooting",
+      "Minecraft exit code 1 mods Java runtime GPU driver"
+    ]
+  }
+]

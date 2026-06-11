@@ -1,0 +1,46 @@
+[
+  {
+    "game": "Windows Common",
+    "code": "SECURE BOOT TPM CHECK",
+    "aliases": ["Secure Boot", "TPM 2.0", "UEFI Secure Boot", "platform security check"],
+    "category": "Windows platform security",
+    "summary": "Some games and anti-cheat systems require Windows to report Secure Boot, UEFI boot mode, and TPM 2.0 correctly.",
+    "likelyCauses": [
+      "Secure Boot is disabled.",
+      "TPM 2.0, Intel PTT, or AMD fTPM is disabled.",
+      "The system is booting in legacy BIOS mode.",
+      "Firmware settings changed but Windows has not fully restarted."
+    ],
+    "safeFixes": [
+      "Check System Information for BIOS Mode and Secure Boot State.",
+      "Run tpm.msc to confirm TPM status.",
+      "Install Windows updates and restart.",
+      "Use your device or motherboard vendor's official documentation before changing firmware settings.",
+      "Back up important files before making firmware or boot configuration changes."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not apply unknown registry files for Secure Boot or TPM.",
+      "Do not convert disk partition styles without a backup and official guidance.",
+      "Do not change firmware settings you cannot identify.",
+      "Do not reinstall Windows before confirming platform state."
+    ],
+    "officialSearchQueries": [
+      "Microsoft check Secure Boot status Windows",
+      "Microsoft enable TPM 2.0 on your PC",
+      "Microsoft UEFI firmware settings Windows",
+      "Microsoft System Information Secure Boot State"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com/r/WindowsHelp Secure Boot TPM game anti cheat",
+      "site:reddit.com/r/techsupport Secure Boot TPM Valorant"
+    ],
+    "youtubeSearchQueries": [
+      "Check Secure Boot TPM Windows 11 official method",
+      "Enable TPM Secure Boot motherboard vendor guide"
+    ],
+    "googleSearchQueries": [
+      "Windows check Secure Boot TPM safe steps",
+      "UEFI Secure Boot TPM 2.0 game anti cheat requirements"
+    ]
+  }
+]

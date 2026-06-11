@@ -1,0 +1,6 @@
+npm run analyze -- --game valorant --code "VAN 9003"
+
+Expected output:
+
+CrashQuest analyzed Valorant VAN 9003
+Report written to: C:\path\to\crashquest\reports\valorant-van-9003-report.md

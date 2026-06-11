@@ -1,0 +1,47 @@
+[
+  {
+    "game": "League of Legends",
+    "code": "RECONNECT LOOP",
+    "aliases": ["Reconnect loop", "LoL reconnect loop", "Unable to reconnect", "League reconnecting"],
+    "category": "Connection or client repair",
+    "summary": "A reconnect loop happens when the League client believes a match is active but the game process cannot successfully connect, launch, or stay attached to the session.",
+    "likelyCauses": [
+      "Temporary Riot service or regional routing issues.",
+      "Local firewall, VPN, DNS, or router problems blocking game traffic.",
+      "Damaged client files or a stuck League/Riot process.",
+      "Graphics driver or overlay conflict preventing the game process from opening correctly."
+    ],
+    "safeFixes": [
+      "Check Riot service status for League of Legends before changing local settings.",
+      "Close League and Riot Client completely from Task Manager, then relaunch.",
+      "Restart the PC and router to clear stale network sessions.",
+      "Temporarily disconnect VPNs or proxies and try a standard connection.",
+      "Allow League of Legends and Riot Client through Windows Firewall using Windows settings.",
+      "Run the Riot Client repair flow or reinstall the client from Riot's official download page if repair does not work."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not share account credentials while troubleshooting.",
+      "Do not download unofficial client patchers.",
+      "Do not disable firewall or antivirus permanently.",
+      "Do not delete random Windows system files."
+    ],
+    "officialSearchQueries": [
+      "Riot support League of Legends reconnect loop",
+      "Riot Games service status League of Legends",
+      "League of Legends repair Riot Client",
+      "Microsoft allow app through Windows Firewall"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com/r/leagueoflegends reconnect loop",
+      "site:reddit.com/r/LeagueOfTechSupport reconnect loop"
+    ],
+    "youtubeSearchQueries": [
+      "League of Legends reconnect loop safe fix",
+      "League of Legends Riot Client repair reconnect"
+    ],
+    "googleSearchQueries": [
+      "League of Legends reconnect loop safe troubleshooting",
+      "LoL reconnect loop firewall Riot Client repair"
+    ]
+  }
+]

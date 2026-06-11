@@ -1,0 +1,28 @@
+{
+  "name": "crashquest",
+  "version": "0.1.0",
+  "description": "Open-source troubleshooting assistant for online game crash errors and error codes.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "crashquest": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "analyze": "node dist/index.js analyze"
+  },
+  "keywords": [
+    "games",
+    "troubleshooting",
+    "crash",
+    "cli",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "game": "Valorant",
+    "code": "VAN 9003",
+    "aliases": ["VAN9003", "Vanguard VAN 9003", "This build of Vanguard requires secure boot"],
+    "category": "Anti-cheat platform requirements",
+    "summary": "VAN 9003 is commonly associated with Riot Vanguard requiring Windows security features such as Secure Boot and TPM 2.0 to be enabled and correctly detected.",
+    "likelyCauses": [
+      "Secure Boot is disabled in UEFI firmware.",
+      "TPM 2.0, Intel PTT, or AMD fTPM is disabled.",
+      "Windows is installed or booting in legacy BIOS mode instead of UEFI mode.",
+      "Vanguard or Windows is reading stale security-state information after firmware changes."
+    ],
+    "safeFixes": [
+      "Restart the PC and launch Valorant again before changing system settings.",
+      "Check Windows Security or System Information to confirm Secure Boot State and TPM status.",
+      "Install pending Windows updates and restart.",
+      "Confirm Riot Vanguard is installed, then restart so the Vanguard service starts cleanly.",
+      "If you are comfortable using firmware settings, enable TPM 2.0 and Secure Boot using your motherboard or laptop vendor's official documentation.",
+      "After firmware changes, boot back into Windows, restart once more, and try Valorant again."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download replacement Vanguard files from unofficial mirrors.",
+      "Do not install random registry files claiming to bypass VAN 9003.",
+      "Do not disable antivirus permanently.",
+      "Do not reinstall Windows before checking Secure Boot, TPM, Windows updates, and Vanguard restart steps."
+    ],
+    "officialSearchQueries": [
+      "Riot support VAN 9003 Secure Boot TPM",
+      "Riot Vanguard Secure Boot TPM requirements",
+      "Microsoft check Secure Boot state Windows 11",
+      "Microsoft enable TPM 2.0 Windows"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com/r/VALORANT VAN 9003 Secure Boot TPM",
+      "site:reddit.com/r/ValorantTechSupport VAN9003 fix"
+    ],
+    "youtubeSearchQueries": [
+      "Valorant VAN 9003 Secure Boot TPM official motherboard settings",
+      "How to check Secure Boot TPM Windows Valorant VAN 9003"
+    ],
+    "googleSearchQueries": [
+      "Valorant VAN 9003 safe fix Secure Boot TPM",
+      "VAN9003 Windows 11 Vanguard Secure Boot TPM"
+    ]
+  },
+  {
+    "game": "Valorant",
+    "code": "VAN 1067",
+    "aliases": ["VAN1067", "Vanguard VAN 1067", "Valorant connection error VAN 1067"],
+    "category": "Anti-cheat service or platform integrity",
+    "summary": "VAN 1067 is often reported when Riot Vanguard cannot keep its required service or platform checks stable while Valorant is running.",
+    "likelyCauses": [
+      "The Vanguard service is stopped, blocked, or did not initialize correctly.",
+      "A pending Windows update or driver update requires a restart.",
+      "Virtualization, firmware, or Windows security settings changed recently.",
+      "Conflicting background software is interfering with Vanguard."
+    ],
+    "safeFixes": [
+      "Restart the PC, then open Valorant without launching unnecessary background tools.",
+      "Check that the Riot Vanguard tray icon appears and that the vgc service is running.",
+      "Install Windows updates, GPU driver updates from the vendor, and restart.",
+      "Repair or reinstall Riot Vanguard using Riot's official client flow, then restart.",
+      "Review recently installed overlays, macro tools, or low-level system utilities and temporarily close them before launching the game.",
+      "Check Riot's service status page for active incidents before making deeper system changes."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Vanguard builds.",
+      "Do not run unknown scripts that modify services or registry keys.",
+      "Do not disable core Windows security features permanently.",
+      "Do not reinstall Windows as an early troubleshooting step."
+    ],
+    "officialSearchQueries": [
+      "Riot support VAN 1067 Vanguard service",
+      "Riot Vanguard vgc service support",
+      "Riot Games service status Valorant",
+      "Microsoft troubleshoot Windows services"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com/r/VALORANT VAN 1067 vgc",
+      "site:reddit.com/r/ValorantTechSupport VAN1067 Vanguard service"
+    ],
+    "youtubeSearchQueries": [
+      "Valorant VAN 1067 vgc service safe fix",
+      "Valorant VAN 1067 Riot Vanguard reinstall"
+    ],
+    "googleSearchQueries": [
+      "Valorant VAN 1067 safe troubleshooting",
+      "VAN1067 Vanguard service Windows fix"
+    ]
+  }
+]
