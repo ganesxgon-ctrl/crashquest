@@ -1,8 +1,16 @@
 # CrashQuest
 
-CrashQuest is an open-source TypeScript CLI troubleshooting assistant for online game crash errors and error codes.
+CrashQuest is an open-source troubleshooting assistant for online game crash errors and error codes.
 
-It normalizes a game name and error code, searches a local community-maintained JSON database, and generates a Markdown troubleshooting report in `reports/`.
+The MVP is a TypeScript CLI that:
+
+- Normalizes game names and error codes.
+- Searches a local JSON database.
+- Generates Markdown troubleshooting reports.
+- Lists likely causes.
+- Recommends safe fixes first.
+- Warns about risky fixes to avoid.
+- Generates targeted research queries.
 
 ## Why CrashQuest Exists
 
@@ -19,6 +27,11 @@ CrashQuest does not perform live web search in the MVP.
 
 ```bash
 npm install
+```
+
+## Build
+
+```bash
 npm run build
 ```
 
@@ -47,6 +60,12 @@ npm run analyze -- --game "minecraft java" --code "exit code 1"
 
 CrashQuest writes reports to `reports/`. A sample output is available at `reports-example/valorant-van9003-report.md`.
 
+Example generated output path:
+
+```text
+reports/valorant-van-9003-report.md
+```
+
 Short excerpt:
 
 ```md
@@ -57,7 +76,7 @@ Short excerpt:
 VAN 9003 is commonly associated with Riot Vanguard requiring Windows security features such as Secure Boot and TPM 2.0 to be enabled and correctly detected.
 ```
 
-## Supported Data
+## Supported Games And Databases
 
 The MVP includes starter entries for:
 
@@ -66,6 +85,14 @@ The MVP includes starter entries for:
 - League of Legends reconnect loop
 - Steam error 0xc000007b
 - Minecraft Java exit code 1
+
+Current database files:
+
+- `database/valorant.json`
+- `database/league-of-legends.json`
+- `database/steam-common.json`
+- `database/minecraft.json`
+- `database/windows-common.json`
 
 See `docs/supported-games.md` for the current database list.
 
@@ -93,6 +120,8 @@ Contributions are welcome. Good database entries should:
 - Avoid collecting account credentials, tokens, private logs, or private user data.
 
 For a new game, add a JSON file in `database/` and update `docs/supported-games.md`.
+
+See `CONTRIBUTING.md` for setup, database entry guidance, and pull request expectations.
 
 ## Roadmap
 
