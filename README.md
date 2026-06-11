@@ -12,6 +12,8 @@ The MVP is a TypeScript CLI that:
 - Warns about risky fixes to avoid.
 - Generates targeted research queries.
 
+CrashQuest does not guarantee that any fix will solve a crash. It prioritizes safe, reversible troubleshooting and clearly separates risky actions to avoid.
+
 ## Why CrashQuest Exists
 
 Game crash fixes are often scattered across support pages, forum posts, videos, and risky copy-paste advice. CrashQuest aims to make troubleshooting safer and more repeatable by:
@@ -51,9 +53,14 @@ Example aliases:
 
 ```bash
 npm run analyze -- --game val --code VAN9003
+npm run analyze -- --game valorant --code "VAN 1067"
 npm run analyze -- --game "league of legends" --code "reconnect loop"
+npm run analyze -- --game "league of legends" --code "failed to connect"
 npm run analyze -- --game steam --code "0xc000007b"
+npm run analyze -- --game steam --code "disk write error"
 npm run analyze -- --game "minecraft java" --code "exit code 1"
+npm run analyze -- --game minecraft --code "GLFW Error 65542"
+npm run analyze -- --game windows --code "0xc000007b"
 ```
 
 ## Example Report
@@ -78,13 +85,13 @@ VAN 9003 is commonly associated with Riot Vanguard requiring Windows security fe
 
 ## Supported Games And Databases
 
-The MVP includes starter entries for:
+The MVP includes expanded local database coverage for:
 
-- Valorant VAN 9003
-- Valorant VAN 1067
-- League of Legends reconnect loop
-- Steam error 0xc000007b
-- Minecraft Java exit code 1
+- Valorant and Riot Vanguard `VAN` / `VAL` errors.
+- League of Legends and Riot Client launch, login, patching, graphics, and connection categories.
+- Steam common launch, update, cloud sync, disk, and platform errors.
+- Minecraft Java launch, Java runtime, authentication, version, graphics, and mod-loading errors.
+- Windows common game launch errors, including Visual C++, DirectX, anti-cheat, GPU, firewall, and antivirus categories.
 
 Current database files:
 
@@ -95,6 +102,18 @@ Current database files:
 - `database/windows-common.json`
 
 See `docs/supported-games.md` for the current database list.
+
+## Manual Verification
+
+```bash
+npm install
+npm run build
+npm run analyze -- --game valorant --code "VAN 1067"
+npm run analyze -- --game steam --code "disk write error"
+npm run analyze -- --game minecraft --code "Exit Code 1"
+npm run analyze -- --game windows --code "0xc000007b"
+npm run analyze -- --game "league of legends" --code "reconnect loop"
+```
 
 ## Source Reliability Policy
 
@@ -130,6 +149,9 @@ See `CONTRIBUTING.md` for setup, database entry guidance, and pull request expec
 - Add more games and launcher-level errors.
 - Add optional live research mode after safety and source policies are mature.
 - Add confidence levels and source citations per fix.
+- Add screenshot OCR for error windows.
+- Add official support page linking and source-ranked web research.
+- Add desktop app and GitHub issue triage workflows.
 
 See `docs/roadmap.md`.
 

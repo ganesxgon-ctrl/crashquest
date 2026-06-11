@@ -2,7 +2,12 @@
   {
     "game": "Windows Common",
     "code": "SECURE BOOT TPM CHECK",
-    "aliases": ["Secure Boot", "TPM 2.0", "UEFI Secure Boot", "platform security check"],
+    "aliases": [
+      "Secure Boot",
+      "TPM 2.0",
+      "UEFI Secure Boot",
+      "platform security check"
+    ],
     "category": "Windows platform security",
     "summary": "Some games and anti-cheat systems require Windows to report Secure Boot, UEFI boot mode, and TPM 2.0 correctly.",
     "likelyCauses": [
@@ -41,6 +46,579 @@
     "googleSearchQueries": [
       "Windows check Secure Boot TPM safe steps",
       "UEFI Secure Boot TPM 2.0 game anti cheat requirements"
+    ]
+  },
+  {
+    "game": "Windows Common",
+    "code": "0XC000007B",
+    "aliases": [
+      "0xc000007b",
+      "The application was unable to start correctly 0xc000007b"
+    ],
+    "category": "Windows runtime dependency",
+    "summary": "Error 0xc000007b usually indicates a Windows application failed to load compatible runtime components, commonly Visual C++, DirectX, or mixed 32-bit and 64-bit dependencies.",
+    "likelyCauses": [
+      "Microsoft Visual C++ Redistributables may be missing or damaged.",
+      "Legacy DirectX runtime components may be missing.",
+      "Game files may be damaged.",
+      "Unofficial DLL files may have been copied into the game folder."
+    ],
+    "safeFixes": [
+      "Restart the PC before making deeper system changes.",
+      "Install pending Windows updates and restart.",
+      "Update the affected game or launcher through official sources.",
+      "Verify or repair game files through the official launcher if available.",
+      "Install or repair Microsoft Visual C++ Redistributables from Microsoft only.",
+      "Install DirectX End-User Runtime components from Microsoft only.",
+      "Remove unofficial DLL files from the game folder if previously added, then verify game files."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files, launcher files, anti-cheat files, or Java builds from unofficial sites.",
+      "Do not run unknown registry files, scripts, or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete random Windows system folders or game folders without a backup.",
+      "Do not reinstall Windows as an early troubleshooting step.",
+      "Do not enter account credentials, tokens, or recovery codes into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Windows game launch 0XC000007B official support",
+      "Windows game launch 0XC000007B service status",
+      "Windows game launch 0XC000007B troubleshooting",
+      "Microsoft Windows game troubleshooting 0XC000007B"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Windows game launch 0XC000007B",
+      "site:reddit.com Windows game launch 0XC000007B fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Windows game launch 0XC000007B safe fix",
+      "Windows game launch 0XC000007B official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Windows game launch 0XC000007B safe troubleshooting",
+      "Windows game launch 0XC000007B official fix community reports"
+    ]
+  },
+  {
+    "game": "Windows Common",
+    "code": "0XC0000142",
+    "aliases": [
+      "0xc0000142",
+      "application error 0xc0000142"
+    ],
+    "category": "Application initialization",
+    "summary": "Error 0xc0000142 is commonly associated with application initialization failure, damaged runtime files, overlays, or blocked startup components.",
+    "likelyCauses": [
+      "A runtime dependency may be missing or damaged.",
+      "Security software may block the game process.",
+      "Overlays or injection-style tools may interfere.",
+      "Game files may be damaged."
+    ],
+    "safeFixes": [
+      "Restart the PC before making deeper system changes.",
+      "Install pending Windows updates and restart.",
+      "Update the affected game or launcher through official sources.",
+      "Verify or repair game files through the official launcher if available.",
+      "Temporarily close overlays and capture tools.",
+      "Repair official Microsoft runtimes.",
+      "Check antivirus quarantine history without disabling protection permanently."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files, launcher files, anti-cheat files, or Java builds from unofficial sites.",
+      "Do not run unknown registry files, scripts, or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete random Windows system folders or game folders without a backup.",
+      "Do not reinstall Windows as an early troubleshooting step.",
+      "Do not enter account credentials, tokens, or recovery codes into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Windows game launch 0XC0000142 official support",
+      "Windows game launch 0XC0000142 service status",
+      "Windows game launch 0XC0000142 troubleshooting",
+      "Microsoft Windows game troubleshooting 0XC0000142"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Windows game launch 0XC0000142",
+      "site:reddit.com Windows game launch 0XC0000142 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Windows game launch 0XC0000142 safe fix",
+      "Windows game launch 0XC0000142 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Windows game launch 0XC0000142 safe troubleshooting",
+      "Windows game launch 0XC0000142 official fix community reports"
+    ]
+  },
+  {
+    "game": "Windows Common",
+    "code": "0XC0000005",
+    "aliases": [
+      "0xc0000005",
+      "access violation",
+      "exception code 0xc0000005"
+    ],
+    "category": "Access violation crash",
+    "summary": "Error 0xc0000005 is commonly associated with access violation crashes caused by unstable drivers, overlays, damaged files, or memory-related faults.",
+    "likelyCauses": [
+      "GPU drivers may be unstable or outdated.",
+      "Overlays, injectors, or mods may conflict with the game.",
+      "Game files may be damaged.",
+      "Hardware instability or memory errors may contribute."
+    ],
+    "safeFixes": [
+      "Restart the PC before making deeper system changes.",
+      "Install pending Windows updates and restart.",
+      "Update the affected game or launcher through official sources.",
+      "Verify or repair game files through the official launcher if available.",
+      "Update GPU drivers from official vendor sites.",
+      "Disable overlays and mods temporarily.",
+      "Run the game file verification tool.",
+      "Use Windows Memory Diagnostic only if crashes continue across multiple apps."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files, launcher files, anti-cheat files, or Java builds from unofficial sites.",
+      "Do not run unknown registry files, scripts, or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete random Windows system folders or game folders without a backup.",
+      "Do not reinstall Windows as an early troubleshooting step.",
+      "Do not enter account credentials, tokens, or recovery codes into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Windows game launch 0XC0000005 official support",
+      "Windows game launch 0XC0000005 service status",
+      "Windows game launch 0XC0000005 troubleshooting",
+      "Microsoft Windows game troubleshooting 0XC0000005"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Windows game launch 0XC0000005",
+      "site:reddit.com Windows game launch 0XC0000005 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Windows game launch 0XC0000005 safe fix",
+      "Windows game launch 0XC0000005 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Windows game launch 0XC0000005 safe troubleshooting",
+      "Windows game launch 0XC0000005 official fix community reports"
+    ]
+  },
+  {
+    "game": "Windows Common",
+    "code": "MSVCP140.DLL MISSING",
+    "aliases": [
+      "MSVCP140.dll missing",
+      "MSVCP140.dll was not found"
+    ],
+    "category": "Microsoft Visual C++ runtime",
+    "summary": "MSVCP140.dll missing is commonly associated with missing or damaged Microsoft Visual C++ Redistributable components.",
+    "likelyCauses": [
+      "Microsoft Visual C++ Redistributable may be missing.",
+      "The runtime installation may be damaged.",
+      "Game files may not have installed prerequisites correctly.",
+      "Unofficial DLL copies may conflict with official runtimes."
+    ],
+    "safeFixes": [
+      "Restart the PC before making deeper system changes.",
+      "Install pending Windows updates and restart.",
+      "Update the affected game or launcher through official sources.",
+      "Verify or repair game files through the official launcher if available.",
+      "Install or repair Microsoft Visual C++ Redistributables from Microsoft only.",
+      "Verify game files after installing the runtime.",
+      "Restart Windows after runtime repair."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files, launcher files, anti-cheat files, or Java builds from unofficial sites.",
+      "Do not run unknown registry files, scripts, or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete random Windows system folders or game folders without a backup.",
+      "Do not reinstall Windows as an early troubleshooting step.",
+      "Do not enter account credentials, tokens, or recovery codes into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Windows game launch MSVCP140.DLL MISSING official support",
+      "Windows game launch MSVCP140.DLL MISSING service status",
+      "Windows game launch MSVCP140.DLL MISSING troubleshooting",
+      "Microsoft Windows game troubleshooting MSVCP140.DLL MISSING"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Windows game launch MSVCP140.DLL MISSING",
+      "site:reddit.com Windows game launch MSVCP140.DLL MISSING fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Windows game launch MSVCP140.DLL MISSING safe fix",
+      "Windows game launch MSVCP140.DLL MISSING official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Windows game launch MSVCP140.DLL MISSING safe troubleshooting",
+      "Windows game launch MSVCP140.DLL MISSING official fix community reports"
+    ]
+  },
+  {
+    "game": "Windows Common",
+    "code": "VCRUNTIME140.DLL MISSING",
+    "aliases": [
+      "VCRUNTIME140.dll missing",
+      "VCRUNTIME140.dll was not found"
+    ],
+    "category": "Microsoft Visual C++ runtime",
+    "summary": "VCRUNTIME140.dll missing is commonly associated with missing or damaged Microsoft Visual C++ Redistributable components.",
+    "likelyCauses": [
+      "Microsoft Visual C++ Redistributable may be missing or damaged.",
+      "Game prerequisites may not have installed correctly.",
+      "An unofficial DLL copy may conflict with the runtime.",
+      "Windows updates may be pending."
+    ],
+    "safeFixes": [
+      "Restart the PC before making deeper system changes.",
+      "Install pending Windows updates and restart.",
+      "Update the affected game or launcher through official sources.",
+      "Verify or repair game files through the official launcher if available.",
+      "Install or repair Microsoft Visual C++ Redistributables from Microsoft only.",
+      "Verify game files through the launcher.",
+      "Restart Windows after repair."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files, launcher files, anti-cheat files, or Java builds from unofficial sites.",
+      "Do not run unknown registry files, scripts, or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete random Windows system folders or game folders without a backup.",
+      "Do not reinstall Windows as an early troubleshooting step.",
+      "Do not enter account credentials, tokens, or recovery codes into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Windows game launch VCRUNTIME140.DLL MISSING official support",
+      "Windows game launch VCRUNTIME140.DLL MISSING service status",
+      "Windows game launch VCRUNTIME140.DLL MISSING troubleshooting",
+      "Microsoft Windows game troubleshooting VCRUNTIME140.DLL MISSING"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Windows game launch VCRUNTIME140.DLL MISSING",
+      "site:reddit.com Windows game launch VCRUNTIME140.DLL MISSING fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Windows game launch VCRUNTIME140.DLL MISSING safe fix",
+      "Windows game launch VCRUNTIME140.DLL MISSING official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Windows game launch VCRUNTIME140.DLL MISSING safe troubleshooting",
+      "Windows game launch VCRUNTIME140.DLL MISSING official fix community reports"
+    ]
+  },
+  {
+    "game": "Windows Common",
+    "code": "D3DX9_43.DLL MISSING",
+    "aliases": [
+      "d3dx9_43.dll missing",
+      "d3dx9_43.dll was not found"
+    ],
+    "category": "Legacy DirectX runtime",
+    "summary": "d3dx9_43.dll missing is commonly associated with older games requiring legacy DirectX runtime components that are not always included by default.",
+    "likelyCauses": [
+      "Legacy DirectX components may be missing.",
+      "Game prerequisite installation may have failed.",
+      "Game files may be incomplete.",
+      "Unofficial DLL copies may conflict with official DirectX components."
+    ],
+    "safeFixes": [
+      "Restart the PC before making deeper system changes.",
+      "Install pending Windows updates and restart.",
+      "Update the affected game or launcher through official sources.",
+      "Verify or repair game files through the official launcher if available.",
+      "Install DirectX End-User Runtime components from Microsoft only.",
+      "Verify game files after DirectX installation.",
+      "Remove unofficial DLL copies if previously added."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files, launcher files, anti-cheat files, or Java builds from unofficial sites.",
+      "Do not run unknown registry files, scripts, or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete random Windows system folders or game folders without a backup.",
+      "Do not reinstall Windows as an early troubleshooting step.",
+      "Do not enter account credentials, tokens, or recovery codes into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Windows game launch D3DX9_43.DLL MISSING official support",
+      "Windows game launch D3DX9_43.DLL MISSING service status",
+      "Windows game launch D3DX9_43.DLL MISSING troubleshooting",
+      "Microsoft Windows game troubleshooting D3DX9_43.DLL MISSING"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Windows game launch D3DX9_43.DLL MISSING",
+      "site:reddit.com Windows game launch D3DX9_43.DLL MISSING fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Windows game launch D3DX9_43.DLL MISSING safe fix",
+      "Windows game launch D3DX9_43.DLL MISSING official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Windows game launch D3DX9_43.DLL MISSING safe troubleshooting",
+      "Windows game launch D3DX9_43.DLL MISSING official fix community reports"
+    ]
+  },
+  {
+    "game": "Windows Common",
+    "code": "DIRECTX INITIALIZATION FAILED",
+    "aliases": [
+      "DirectX initialization failed",
+      "failed to initialize DirectX",
+      "DirectX init failed"
+    ],
+    "category": "Graphics runtime",
+    "summary": "DirectX initialization failed is commonly associated with GPU driver issues, missing DirectX components, unsupported hardware, or overlays.",
+    "likelyCauses": [
+      "GPU drivers may be outdated or unstable.",
+      "Windows graphics components may need updates.",
+      "The GPU may not support the required DirectX feature level.",
+      "Overlays or capture tools may interfere."
+    ],
+    "safeFixes": [
+      "Restart the PC before making deeper system changes.",
+      "Install pending Windows updates and restart.",
+      "Update the affected game or launcher through official sources.",
+      "Verify or repair game files through the official launcher if available.",
+      "Update GPU drivers from official vendor sites.",
+      "Install Windows updates.",
+      "Check the game minimum GPU requirements.",
+      "Close overlays and capture tools temporarily."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files, launcher files, anti-cheat files, or Java builds from unofficial sites.",
+      "Do not run unknown registry files, scripts, or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete random Windows system folders or game folders without a backup.",
+      "Do not reinstall Windows as an early troubleshooting step.",
+      "Do not enter account credentials, tokens, or recovery codes into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Windows game launch DIRECTX INITIALIZATION FAILED official support",
+      "Windows game launch DIRECTX INITIALIZATION FAILED service status",
+      "Windows game launch DIRECTX INITIALIZATION FAILED troubleshooting",
+      "Microsoft Windows game troubleshooting DIRECTX INITIALIZATION FAILED"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Windows game launch DIRECTX INITIALIZATION FAILED",
+      "site:reddit.com Windows game launch DIRECTX INITIALIZATION FAILED fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Windows game launch DIRECTX INITIALIZATION FAILED safe fix",
+      "Windows game launch DIRECTX INITIALIZATION FAILED official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Windows game launch DIRECTX INITIALIZATION FAILED safe troubleshooting",
+      "Windows game launch DIRECTX INITIALIZATION FAILED official fix community reports"
+    ]
+  },
+  {
+    "game": "Windows Common",
+    "code": "GPU DRIVER CRASH",
+    "aliases": [
+      "GPU driver crash",
+      "display driver stopped responding",
+      "DXGI device removed"
+    ],
+    "category": "Graphics driver stability",
+    "summary": "GPU driver crash messages are commonly associated with unstable graphics drivers, overheating, aggressive overclocks, or game graphics settings.",
+    "likelyCauses": [
+      "GPU driver may be unstable or outdated.",
+      "GPU overclocking or undervolting may be unstable.",
+      "The game graphics settings may exceed stable limits.",
+      "Thermal or power issues may affect the GPU."
+    ],
+    "safeFixes": [
+      "Restart the PC before making deeper system changes.",
+      "Install pending Windows updates and restart.",
+      "Update the affected game or launcher through official sources.",
+      "Verify or repair game files through the official launcher if available.",
+      "Update or clean-install GPU drivers using official vendor tools.",
+      "Return GPU clocks and voltage to default settings for testing.",
+      "Lower graphics settings and test again.",
+      "Check temperatures using reputable monitoring tools."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files, launcher files, anti-cheat files, or Java builds from unofficial sites.",
+      "Do not run unknown registry files, scripts, or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete random Windows system folders or game folders without a backup.",
+      "Do not reinstall Windows as an early troubleshooting step.",
+      "Do not enter account credentials, tokens, or recovery codes into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Windows game launch GPU DRIVER CRASH official support",
+      "Windows game launch GPU DRIVER CRASH service status",
+      "Windows game launch GPU DRIVER CRASH troubleshooting",
+      "Microsoft Windows game troubleshooting GPU DRIVER CRASH"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Windows game launch GPU DRIVER CRASH",
+      "site:reddit.com Windows game launch GPU DRIVER CRASH fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Windows game launch GPU DRIVER CRASH safe fix",
+      "Windows game launch GPU DRIVER CRASH official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Windows game launch GPU DRIVER CRASH safe troubleshooting",
+      "Windows game launch GPU DRIVER CRASH official fix community reports"
+    ]
+  },
+  {
+    "game": "Windows Common",
+    "code": "EASY ANTI-CHEAT NOT INSTALLED",
+    "aliases": [
+      "Easy Anti-Cheat not installed",
+      "EAC not installed",
+      "EasyAntiCheat not installed"
+    ],
+    "category": "Anti-cheat installation",
+    "summary": "Easy Anti-Cheat not installed is commonly associated with a missing, damaged, or unregistered official EAC service for a supported game.",
+    "likelyCauses": [
+      "The EAC service may not be installed for the game.",
+      "Game files may be incomplete.",
+      "Security software may have blocked an anti-cheat component.",
+      "The launcher may need repair permissions."
+    ],
+    "safeFixes": [
+      "Restart the PC before making deeper system changes.",
+      "Install pending Windows updates and restart.",
+      "Update the affected game or launcher through official sources.",
+      "Verify or repair game files through the official launcher if available.",
+      "Verify game files in the official launcher.",
+      "Run the official Easy Anti-Cheat repair installer included with the game if provided.",
+      "Restart the PC after repair.",
+      "Check security quarantine history without disabling protection permanently."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files, launcher files, anti-cheat files, or Java builds from unofficial sites.",
+      "Do not run unknown registry files, scripts, or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete random Windows system folders or game folders without a backup.",
+      "Do not reinstall Windows as an early troubleshooting step.",
+      "Do not enter account credentials, tokens, or recovery codes into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Windows game launch EASY ANTI-CHEAT NOT INSTALLED official support",
+      "Windows game launch EASY ANTI-CHEAT NOT INSTALLED service status",
+      "Windows game launch EASY ANTI-CHEAT NOT INSTALLED troubleshooting",
+      "Microsoft Windows game troubleshooting EASY ANTI-CHEAT NOT INSTALLED"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Windows game launch EASY ANTI-CHEAT NOT INSTALLED",
+      "site:reddit.com Windows game launch EASY ANTI-CHEAT NOT INSTALLED fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Windows game launch EASY ANTI-CHEAT NOT INSTALLED safe fix",
+      "Windows game launch EASY ANTI-CHEAT NOT INSTALLED official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Windows game launch EASY ANTI-CHEAT NOT INSTALLED safe troubleshooting",
+      "Windows game launch EASY ANTI-CHEAT NOT INSTALLED official fix community reports"
+    ]
+  },
+  {
+    "game": "Windows Common",
+    "code": "BATTLEYE SERVICE FAILED TO START",
+    "aliases": [
+      "BattlEye service failed to start",
+      "BattlEye failed to start",
+      "BE service failed"
+    ],
+    "category": "Anti-cheat service",
+    "summary": "BattlEye service failed to start is commonly associated with the official BattlEye service being blocked, damaged, or unable to initialize.",
+    "likelyCauses": [
+      "BattlEye service files may be damaged or incomplete.",
+      "Security software may block the service.",
+      "Windows service state may be stale.",
+      "Game files may need verification."
+    ],
+    "safeFixes": [
+      "Restart the PC before making deeper system changes.",
+      "Install pending Windows updates and restart.",
+      "Update the affected game or launcher through official sources.",
+      "Verify or repair game files through the official launcher if available.",
+      "Verify game files in the official launcher.",
+      "Use the official BattlEye installer or repair files included with the game if provided.",
+      "Restart Windows after repair.",
+      "Review firewall or antivirus prompts without disabling protection permanently."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files, launcher files, anti-cheat files, or Java builds from unofficial sites.",
+      "Do not run unknown registry files, scripts, or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete random Windows system folders or game folders without a backup.",
+      "Do not reinstall Windows as an early troubleshooting step.",
+      "Do not enter account credentials, tokens, or recovery codes into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Windows game launch BATTLEYE SERVICE FAILED TO START official support",
+      "Windows game launch BATTLEYE SERVICE FAILED TO START service status",
+      "Windows game launch BATTLEYE SERVICE FAILED TO START troubleshooting",
+      "Microsoft Windows game troubleshooting BATTLEYE SERVICE FAILED TO START"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Windows game launch BATTLEYE SERVICE FAILED TO START",
+      "site:reddit.com Windows game launch BATTLEYE SERVICE FAILED TO START fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Windows game launch BATTLEYE SERVICE FAILED TO START safe fix",
+      "Windows game launch BATTLEYE SERVICE FAILED TO START official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Windows game launch BATTLEYE SERVICE FAILED TO START safe troubleshooting",
+      "Windows game launch BATTLEYE SERVICE FAILED TO START official fix community reports"
+    ]
+  },
+  {
+    "game": "Windows Common",
+    "code": "FIREWALL OR ANTIVIRUS BLOCKING CONNECTION",
+    "aliases": [
+      "firewall blocking game",
+      "antivirus blocking connection",
+      "security software blocking game"
+    ],
+    "category": "Network security filtering",
+    "summary": "Firewall or antivirus blocking connection is a general category for games that cannot connect because official game or launcher traffic is filtered locally.",
+    "likelyCauses": [
+      "Windows Firewall may not have an allow rule for the game or launcher.",
+      "Security software may quarantine a game component.",
+      "Controlled folder access or network filtering may block updates.",
+      "VPN or proxy tools may interfere with routing."
+    ],
+    "safeFixes": [
+      "Restart the PC before making deeper system changes.",
+      "Install pending Windows updates and restart.",
+      "Update the affected game or launcher through official sources.",
+      "Verify or repair game files through the official launcher if available.",
+      "Add allow rules for official game and launcher executables instead of disabling firewall permanently.",
+      "Review antivirus quarantine and restore only trusted official files.",
+      "Temporarily disconnect VPN or proxy software for testing.",
+      "Check official support pages for required network permissions."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files, launcher files, anti-cheat files, or Java builds from unofficial sites.",
+      "Do not run unknown registry files, scripts, or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete random Windows system folders or game folders without a backup.",
+      "Do not reinstall Windows as an early troubleshooting step.",
+      "Do not enter account credentials, tokens, or recovery codes into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Windows game launch FIREWALL OR ANTIVIRUS BLOCKING CONNECTION official support",
+      "Windows game launch FIREWALL OR ANTIVIRUS BLOCKING CONNECTION service status",
+      "Windows game launch FIREWALL OR ANTIVIRUS BLOCKING CONNECTION troubleshooting",
+      "Microsoft Windows game troubleshooting FIREWALL OR ANTIVIRUS BLOCKING CONNECTION"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Windows game launch FIREWALL OR ANTIVIRUS BLOCKING CONNECTION",
+      "site:reddit.com Windows game launch FIREWALL OR ANTIVIRUS BLOCKING CONNECTION fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Windows game launch FIREWALL OR ANTIVIRUS BLOCKING CONNECTION safe fix",
+      "Windows game launch FIREWALL OR ANTIVIRUS BLOCKING CONNECTION official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Windows game launch FIREWALL OR ANTIVIRUS BLOCKING CONNECTION safe troubleshooting",
+      "Windows game launch FIREWALL OR ANTIVIRUS BLOCKING CONNECTION official fix community reports"
     ]
   }
 ]

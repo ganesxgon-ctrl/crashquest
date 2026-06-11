@@ -2,7 +2,11 @@
   {
     "game": "Minecraft Java Edition",
     "code": "EXIT CODE 1",
-    "aliases": ["Exit code 1", "Minecraft exit code 1", "Java exit code 1"],
+    "aliases": [
+      "Exit code 1",
+      "Minecraft exit code 1",
+      "Java exit code 1"
+    ],
     "category": "Java runtime, mods, or launcher configuration",
     "summary": "Minecraft Java exit code 1 is a generic crash result. It often points to a Java mismatch, incompatible mods, graphics driver issues, or a broken launcher profile.",
     "likelyCauses": [
@@ -42,6 +46,462 @@
     "googleSearchQueries": [
       "Minecraft Java exit code 1 safe troubleshooting",
       "Minecraft exit code 1 mods Java runtime GPU driver"
+    ]
+  },
+  {
+    "game": "Minecraft Java Edition",
+    "code": "EXIT CODE 0",
+    "aliases": [
+      "Exit Code 0",
+      "Minecraft exit code 0"
+    ],
+    "category": "Generic launcher exit",
+    "summary": "Minecraft Java exit code 0 is a generic exit state that may appear after a crash, mod conflict, or clean process termination without a detailed launcher message.",
+    "likelyCauses": [
+      "A mod or mod loader may be incompatible.",
+      "Launcher arguments may be invalid.",
+      "The selected Java runtime may not match the Minecraft version.",
+      "GPU drivers or overlays may interfere with startup."
+    ],
+    "safeFixes": [
+      "Restart the Minecraft Launcher and PC before changing configuration.",
+      "Update the Minecraft Launcher through official sources.",
+      "Test with a clean unmodded profile for the same Minecraft version.",
+      "Remove recently installed mods and test again.",
+      "Reset custom JVM arguments.",
+      "Use the bundled Java runtime unless a modpack documents another official Java version.",
+      "Update GPU drivers from official vendor sites."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download Java builds, mods, or launchers from unknown mirrors.",
+      "Do not install random modpack fixers or unofficial patchers.",
+      "Do not delete saves, worlds, or configuration folders before making backups.",
+      "Do not share Microsoft account tokens or logs containing private data without review.",
+      "Do not disable antivirus or firewall protection permanently."
+    ],
+    "officialSearchQueries": [
+      "Minecraft Java EXIT CODE 0 official support",
+      "Minecraft Java EXIT CODE 0 service status",
+      "Minecraft Java EXIT CODE 0 troubleshooting",
+      "Microsoft Windows game troubleshooting EXIT CODE 0"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Minecraft Java EXIT CODE 0",
+      "site:reddit.com Minecraft Java EXIT CODE 0 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Minecraft Java EXIT CODE 0 safe fix",
+      "Minecraft Java EXIT CODE 0 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Minecraft Java EXIT CODE 0 safe troubleshooting",
+      "Minecraft Java EXIT CODE 0 official fix community reports"
+    ]
+  },
+  {
+    "game": "Minecraft Java Edition",
+    "code": "GLFW ERROR 65542",
+    "aliases": [
+      "GLFW Error 65542",
+      "OpenGL error 65542",
+      "The driver does not appear to support OpenGL"
+    ],
+    "category": "OpenGL or graphics driver",
+    "summary": "GLFW Error 65542 is commonly associated with missing or unsupported OpenGL support from the installed graphics driver.",
+    "likelyCauses": [
+      "GPU drivers may be missing, outdated, or replaced by a generic Windows driver.",
+      "The device GPU may not support the OpenGL version required by the Minecraft version.",
+      "Remote desktop or virtualized display drivers may not expose OpenGL correctly.",
+      "A manually copied OpenGL DLL may conflict with the official driver."
+    ],
+    "safeFixes": [
+      "Restart the Minecraft Launcher and PC before changing configuration.",
+      "Update the Minecraft Launcher through official sources.",
+      "Test with a clean unmodded profile for the same Minecraft version.",
+      "Install GPU drivers from the official vendor or device manufacturer.",
+      "Avoid remote desktop sessions when testing OpenGL problems.",
+      "Remove manually copied OpenGL DLL files from the game folder if added from unofficial sources.",
+      "Update GPU drivers from official vendor sites."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download Java builds, mods, or launchers from unknown mirrors.",
+      "Do not install random modpack fixers or unofficial patchers.",
+      "Do not delete saves, worlds, or configuration folders before making backups.",
+      "Do not share Microsoft account tokens or logs containing private data without review.",
+      "Do not disable antivirus or firewall protection permanently."
+    ],
+    "officialSearchQueries": [
+      "Minecraft Java GLFW ERROR 65542 official support",
+      "Minecraft Java GLFW ERROR 65542 service status",
+      "Minecraft Java GLFW ERROR 65542 troubleshooting",
+      "Microsoft Windows game troubleshooting GLFW ERROR 65542"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Minecraft Java GLFW ERROR 65542",
+      "site:reddit.com Minecraft Java GLFW ERROR 65542 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Minecraft Java GLFW ERROR 65542 safe fix",
+      "Minecraft Java GLFW ERROR 65542 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Minecraft Java GLFW ERROR 65542 safe troubleshooting",
+      "Minecraft Java GLFW ERROR 65542 official fix community reports"
+    ]
+  },
+  {
+    "game": "Minecraft Java Edition",
+    "code": "JAVA RUNTIME ENVIRONMENT NOT FOUND",
+    "aliases": [
+      "Java Runtime Environment not found",
+      "JRE not found",
+      "Java not found"
+    ],
+    "category": "Java runtime",
+    "summary": "Java Runtime Environment not found is commonly associated with a missing, moved, or misconfigured Java runtime path.",
+    "likelyCauses": [
+      "The launcher profile may point to a Java path that no longer exists.",
+      "The bundled runtime may be damaged or unavailable.",
+      "A modpack may require a specific official Java version.",
+      "Environment variables may point to an incompatible Java installation."
+    ],
+    "safeFixes": [
+      "Restart the Minecraft Launcher and PC before changing configuration.",
+      "Update the Minecraft Launcher through official sources.",
+      "Test with a clean unmodded profile for the same Minecraft version.",
+      "Use the Minecraft Launcher bundled Java runtime.",
+      "Reset the Java executable path in the launcher profile.",
+      "Install Java only from official vendor sources if a modpack requires it.",
+      "Update GPU drivers from official vendor sites."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download Java builds, mods, or launchers from unknown mirrors.",
+      "Do not install random modpack fixers or unofficial patchers.",
+      "Do not delete saves, worlds, or configuration folders before making backups.",
+      "Do not share Microsoft account tokens or logs containing private data without review.",
+      "Do not disable antivirus or firewall protection permanently."
+    ],
+    "officialSearchQueries": [
+      "Minecraft Java JAVA RUNTIME ENVIRONMENT NOT FOUND official support",
+      "Minecraft Java JAVA RUNTIME ENVIRONMENT NOT FOUND service status",
+      "Minecraft Java JAVA RUNTIME ENVIRONMENT NOT FOUND troubleshooting",
+      "Microsoft Windows game troubleshooting JAVA RUNTIME ENVIRONMENT NOT FOUND"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Minecraft Java JAVA RUNTIME ENVIRONMENT NOT FOUND",
+      "site:reddit.com Minecraft Java JAVA RUNTIME ENVIRONMENT NOT FOUND fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Minecraft Java JAVA RUNTIME ENVIRONMENT NOT FOUND safe fix",
+      "Minecraft Java JAVA RUNTIME ENVIRONMENT NOT FOUND official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Minecraft Java JAVA RUNTIME ENVIRONMENT NOT FOUND safe troubleshooting",
+      "Minecraft Java JAVA RUNTIME ENVIRONMENT NOT FOUND official fix community reports"
+    ]
+  },
+  {
+    "game": "Minecraft Java Edition",
+    "code": "UNABLE TO ACCESS JARFILE",
+    "aliases": [
+      "unable to access jarfile",
+      "jarfile access error"
+    ],
+    "category": "Launcher file path or permissions",
+    "summary": "Unable to access jarfile is commonly associated with a missing file, moved launcher/modpack path, or permission problem.",
+    "likelyCauses": [
+      "The referenced JAR file path may be wrong or moved.",
+      "The mod loader or server JAR may not have downloaded completely.",
+      "The file may be blocked by permissions or security software.",
+      "The command or launcher profile may quote the path incorrectly."
+    ],
+    "safeFixes": [
+      "Restart the Minecraft Launcher and PC before changing configuration.",
+      "Update the Minecraft Launcher through official sources.",
+      "Test with a clean unmodded profile for the same Minecraft version.",
+      "Confirm the JAR exists at the configured path.",
+      "Re-download the mod loader or server JAR from official sources.",
+      "Move the instance to a simple user-owned folder path and retry.",
+      "Update GPU drivers from official vendor sites."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download Java builds, mods, or launchers from unknown mirrors.",
+      "Do not install random modpack fixers or unofficial patchers.",
+      "Do not delete saves, worlds, or configuration folders before making backups.",
+      "Do not share Microsoft account tokens or logs containing private data without review.",
+      "Do not disable antivirus or firewall protection permanently."
+    ],
+    "officialSearchQueries": [
+      "Minecraft Java UNABLE TO ACCESS JARFILE official support",
+      "Minecraft Java UNABLE TO ACCESS JARFILE service status",
+      "Minecraft Java UNABLE TO ACCESS JARFILE troubleshooting",
+      "Microsoft Windows game troubleshooting UNABLE TO ACCESS JARFILE"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Minecraft Java UNABLE TO ACCESS JARFILE",
+      "site:reddit.com Minecraft Java UNABLE TO ACCESS JARFILE fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Minecraft Java UNABLE TO ACCESS JARFILE safe fix",
+      "Minecraft Java UNABLE TO ACCESS JARFILE official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Minecraft Java UNABLE TO ACCESS JARFILE safe troubleshooting",
+      "Minecraft Java UNABLE TO ACCESS JARFILE official fix community reports"
+    ]
+  },
+  {
+    "game": "Minecraft Java Edition",
+    "code": "AUTHENTICATION SERVERS ARE DOWN",
+    "aliases": [
+      "authentication servers are down",
+      "Minecraft auth servers down"
+    ],
+    "category": "Authentication service",
+    "summary": "Authentication servers are down is commonly associated with Mojang or Microsoft authentication service availability or local network access to those services.",
+    "likelyCauses": [
+      "Minecraft authentication services may be temporarily unavailable.",
+      "Local network, VPN, proxy, or DNS settings may block authentication.",
+      "The Microsoft account session may be stale.",
+      "The launcher may need an update."
+    ],
+    "safeFixes": [
+      "Restart the Minecraft Launcher and PC before changing configuration.",
+      "Update the Minecraft Launcher through official sources.",
+      "Test with a clean unmodded profile for the same Minecraft version.",
+      "Check official Minecraft or Xbox service status.",
+      "Sign out and back into the launcher.",
+      "Temporarily disconnect VPN or proxy software.",
+      "Update GPU drivers from official vendor sites."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download Java builds, mods, or launchers from unknown mirrors.",
+      "Do not install random modpack fixers or unofficial patchers.",
+      "Do not delete saves, worlds, or configuration folders before making backups.",
+      "Do not share Microsoft account tokens or logs containing private data without review.",
+      "Do not disable antivirus or firewall protection permanently."
+    ],
+    "officialSearchQueries": [
+      "Minecraft Java AUTHENTICATION SERVERS ARE DOWN official support",
+      "Minecraft Java AUTHENTICATION SERVERS ARE DOWN service status",
+      "Minecraft Java AUTHENTICATION SERVERS ARE DOWN troubleshooting",
+      "Microsoft Windows game troubleshooting AUTHENTICATION SERVERS ARE DOWN"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Minecraft Java AUTHENTICATION SERVERS ARE DOWN",
+      "site:reddit.com Minecraft Java AUTHENTICATION SERVERS ARE DOWN fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Minecraft Java AUTHENTICATION SERVERS ARE DOWN safe fix",
+      "Minecraft Java AUTHENTICATION SERVERS ARE DOWN official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Minecraft Java AUTHENTICATION SERVERS ARE DOWN safe troubleshooting",
+      "Minecraft Java AUTHENTICATION SERVERS ARE DOWN official fix community reports"
+    ]
+  },
+  {
+    "game": "Minecraft Java Edition",
+    "code": "FAILED TO VERIFY USERNAME",
+    "aliases": [
+      "failed to verify username",
+      "Minecraft failed to verify username"
+    ],
+    "category": "Authentication or server mode",
+    "summary": "Failed to verify username is often reported when a server cannot validate the player session with Minecraft authentication services.",
+    "likelyCauses": [
+      "Authentication services may be unavailable.",
+      "The launcher session may be stale.",
+      "The server may be running in online mode while authentication checks fail.",
+      "VPN, proxy, or DNS settings may interfere."
+    ],
+    "safeFixes": [
+      "Restart the Minecraft Launcher and PC before changing configuration.",
+      "Update the Minecraft Launcher through official sources.",
+      "Test with a clean unmodded profile for the same Minecraft version.",
+      "Restart the launcher and sign in again.",
+      "Check official service status.",
+      "Server owners should verify server configuration using official documentation.",
+      "Update GPU drivers from official vendor sites."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download Java builds, mods, or launchers from unknown mirrors.",
+      "Do not install random modpack fixers or unofficial patchers.",
+      "Do not delete saves, worlds, or configuration folders before making backups.",
+      "Do not share Microsoft account tokens or logs containing private data without review.",
+      "Do not disable antivirus or firewall protection permanently."
+    ],
+    "officialSearchQueries": [
+      "Minecraft Java FAILED TO VERIFY USERNAME official support",
+      "Minecraft Java FAILED TO VERIFY USERNAME service status",
+      "Minecraft Java FAILED TO VERIFY USERNAME troubleshooting",
+      "Microsoft Windows game troubleshooting FAILED TO VERIFY USERNAME"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Minecraft Java FAILED TO VERIFY USERNAME",
+      "site:reddit.com Minecraft Java FAILED TO VERIFY USERNAME fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Minecraft Java FAILED TO VERIFY USERNAME safe fix",
+      "Minecraft Java FAILED TO VERIFY USERNAME official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Minecraft Java FAILED TO VERIFY USERNAME safe troubleshooting",
+      "Minecraft Java FAILED TO VERIFY USERNAME official fix community reports"
+    ]
+  },
+  {
+    "game": "Minecraft Java Edition",
+    "code": "OUTDATED CLIENT",
+    "aliases": [
+      "outdated client",
+      "Minecraft outdated client"
+    ],
+    "category": "Version mismatch",
+    "summary": "Outdated client is a known Minecraft multiplayer message that indicates the client version does not match the server requirements.",
+    "likelyCauses": [
+      "The server is running a newer Minecraft version than the client.",
+      "The launcher profile selected the wrong version.",
+      "A modpack server and client pack version may not match.",
+      "The launcher may not have completed an update."
+    ],
+    "safeFixes": [
+      "Restart the Minecraft Launcher and PC before changing configuration.",
+      "Update the Minecraft Launcher through official sources.",
+      "Test with a clean unmodded profile for the same Minecraft version.",
+      "Select the Minecraft version required by the server.",
+      "Update the modpack through its official launcher or source.",
+      "Ask the server owner for the exact supported version.",
+      "Update GPU drivers from official vendor sites."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download Java builds, mods, or launchers from unknown mirrors.",
+      "Do not install random modpack fixers or unofficial patchers.",
+      "Do not delete saves, worlds, or configuration folders before making backups.",
+      "Do not share Microsoft account tokens or logs containing private data without review.",
+      "Do not disable antivirus or firewall protection permanently."
+    ],
+    "officialSearchQueries": [
+      "Minecraft Java OUTDATED CLIENT official support",
+      "Minecraft Java OUTDATED CLIENT service status",
+      "Minecraft Java OUTDATED CLIENT troubleshooting",
+      "Microsoft Windows game troubleshooting OUTDATED CLIENT"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Minecraft Java OUTDATED CLIENT",
+      "site:reddit.com Minecraft Java OUTDATED CLIENT fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Minecraft Java OUTDATED CLIENT safe fix",
+      "Minecraft Java OUTDATED CLIENT official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Minecraft Java OUTDATED CLIENT safe troubleshooting",
+      "Minecraft Java OUTDATED CLIENT official fix community reports"
+    ]
+  },
+  {
+    "game": "Minecraft Java Edition",
+    "code": "INCOMPATIBLE MOD SET",
+    "aliases": [
+      "incompatible mod set",
+      "mod set is incompatible",
+      "incompatible mods"
+    ],
+    "category": "Mod compatibility",
+    "summary": "Incompatible mod set is commonly associated with mismatched Minecraft, mod loader, or mod versions.",
+    "likelyCauses": [
+      "One or more mods may target a different Minecraft version.",
+      "Forge, Fabric, Quilt, or NeoForge versions may not match the mods.",
+      "Client and server mod lists may differ.",
+      "A dependency mod may be missing or outdated."
+    ],
+    "safeFixes": [
+      "Restart the Minecraft Launcher and PC before changing configuration.",
+      "Update the Minecraft Launcher through official sources.",
+      "Test with a clean unmodded profile for the same Minecraft version.",
+      "Test with a clean mod profile.",
+      "Confirm every mod matches the Minecraft and loader version.",
+      "Add mods back in small groups to isolate the conflict.",
+      "Check official mod pages for required dependencies.",
+      "Update GPU drivers from official vendor sites."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download Java builds, mods, or launchers from unknown mirrors.",
+      "Do not install random modpack fixers or unofficial patchers.",
+      "Do not delete saves, worlds, or configuration folders before making backups.",
+      "Do not share Microsoft account tokens or logs containing private data without review.",
+      "Do not disable antivirus or firewall protection permanently."
+    ],
+    "officialSearchQueries": [
+      "Minecraft Java INCOMPATIBLE MOD SET official support",
+      "Minecraft Java INCOMPATIBLE MOD SET service status",
+      "Minecraft Java INCOMPATIBLE MOD SET troubleshooting",
+      "Microsoft Windows game troubleshooting INCOMPATIBLE MOD SET"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Minecraft Java INCOMPATIBLE MOD SET",
+      "site:reddit.com Minecraft Java INCOMPATIBLE MOD SET fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Minecraft Java INCOMPATIBLE MOD SET safe fix",
+      "Minecraft Java INCOMPATIBLE MOD SET official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Minecraft Java INCOMPATIBLE MOD SET safe troubleshooting",
+      "Minecraft Java INCOMPATIBLE MOD SET official fix community reports"
+    ]
+  },
+  {
+    "game": "Minecraft Java Edition",
+    "code": "FAILED TO LOAD MOD CORRECTLY",
+    "aliases": [
+      "failed to load mod correctly",
+      "mod failed to load",
+      "failed loading mod"
+    ],
+    "category": "Mod loading",
+    "summary": "Failed to load mod correctly is often reported when a mod has missing dependencies, wrong loader version, or incompatible configuration.",
+    "likelyCauses": [
+      "The mod may require a different loader or Minecraft version.",
+      "A required dependency may be missing.",
+      "The config file may be invalid after a mod update.",
+      "Two mods may conflict during initialization."
+    ],
+    "safeFixes": [
+      "Restart the Minecraft Launcher and PC before changing configuration.",
+      "Update the Minecraft Launcher through official sources.",
+      "Test with a clean unmodded profile for the same Minecraft version.",
+      "Read the mod loader crash report for the named mod and dependency.",
+      "Install dependencies from official mod pages only.",
+      "Remove recently added mods and test in small groups.",
+      "Regenerate config files only after backing up the instance.",
+      "Update GPU drivers from official vendor sites."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download Java builds, mods, or launchers from unknown mirrors.",
+      "Do not install random modpack fixers or unofficial patchers.",
+      "Do not delete saves, worlds, or configuration folders before making backups.",
+      "Do not share Microsoft account tokens or logs containing private data without review.",
+      "Do not disable antivirus or firewall protection permanently."
+    ],
+    "officialSearchQueries": [
+      "Minecraft Java FAILED TO LOAD MOD CORRECTLY official support",
+      "Minecraft Java FAILED TO LOAD MOD CORRECTLY service status",
+      "Minecraft Java FAILED TO LOAD MOD CORRECTLY troubleshooting",
+      "Microsoft Windows game troubleshooting FAILED TO LOAD MOD CORRECTLY"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Minecraft Java FAILED TO LOAD MOD CORRECTLY",
+      "site:reddit.com Minecraft Java FAILED TO LOAD MOD CORRECTLY fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Minecraft Java FAILED TO LOAD MOD CORRECTLY safe fix",
+      "Minecraft Java FAILED TO LOAD MOD CORRECTLY official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Minecraft Java FAILED TO LOAD MOD CORRECTLY safe troubleshooting",
+      "Minecraft Java FAILED TO LOAD MOD CORRECTLY official fix community reports"
     ]
   }
 ]

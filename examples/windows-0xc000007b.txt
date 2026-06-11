@@ -1,0 +1,6 @@
+npm run analyze -- --game windows --code "0xc000007b"
+
+Expected output:
+
+CrashQuest analyzed Windows Common 0XC000007B
+Report written to: C:\path\to\crashquest\reports\windows-common-0xc000007b-report.md

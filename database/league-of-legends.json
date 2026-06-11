@@ -2,7 +2,12 @@
   {
     "game": "League of Legends",
     "code": "RECONNECT LOOP",
-    "aliases": ["Reconnect loop", "LoL reconnect loop", "Unable to reconnect", "League reconnecting"],
+    "aliases": [
+      "Reconnect loop",
+      "LoL reconnect loop",
+      "Unable to reconnect",
+      "League reconnecting"
+    ],
     "category": "Connection or client repair",
     "summary": "A reconnect loop happens when the League client believes a match is active but the game process cannot successfully connect, launch, or stay attached to the session.",
     "likelyCauses": [
@@ -42,6 +47,385 @@
     "googleSearchQueries": [
       "League of Legends reconnect loop safe troubleshooting",
       "LoL reconnect loop firewall Riot Client repair"
+    ]
+  },
+  {
+    "game": "League of Legends",
+    "code": "BLACK SCREEN AFTER CHAMPION SELECT",
+    "aliases": [
+      "black screen after champ select",
+      "black screen after champion select",
+      "LoL black screen loading"
+    ],
+    "category": "Graphics or game process launch",
+    "summary": "A black screen after champion select is often reported when the League game process launches but cannot render or attach to the match normally.",
+    "likelyCauses": [
+      "Graphics driver or display mode problems may prevent rendering.",
+      "Overlays or capture tools may interfere with the game process.",
+      "Client files or configuration may be stale.",
+      "A regional service issue may affect match connection."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for League of Legends before changing local settings.",
+      "Close League of Legends and Riot Client completely from Task Manager, then relaunch.",
+      "Restart the PC and router to clear stale network sessions.",
+      "Update League of Legends through the official Riot Client.",
+      "Update GPU drivers from official vendor sites.",
+      "Disable overlays temporarily and retry.",
+      "Try borderless or windowed mode from game configuration if accessible.",
+      "Allow League of Legends and Riot Client through Windows Firewall without disabling firewall protection permanently.",
+      "Use the official Riot Client repair flow if the problem persists."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "League of Legends Riot Client BLACK SCREEN AFTER CHAMPION SELECT official support",
+      "League of Legends Riot Client BLACK SCREEN AFTER CHAMPION SELECT service status",
+      "League of Legends Riot Client BLACK SCREEN AFTER CHAMPION SELECT troubleshooting",
+      "Microsoft Windows game troubleshooting BLACK SCREEN AFTER CHAMPION SELECT"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com League of Legends Riot Client BLACK SCREEN AFTER CHAMPION SELECT",
+      "site:reddit.com League of Legends Riot Client BLACK SCREEN AFTER CHAMPION SELECT fixed"
+    ],
+    "youtubeSearchQueries": [
+      "League of Legends Riot Client BLACK SCREEN AFTER CHAMPION SELECT safe fix",
+      "League of Legends Riot Client BLACK SCREEN AFTER CHAMPION SELECT official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "League of Legends Riot Client BLACK SCREEN AFTER CHAMPION SELECT safe troubleshooting",
+      "League of Legends Riot Client BLACK SCREEN AFTER CHAMPION SELECT official fix community reports"
+    ]
+  },
+  {
+    "game": "League of Legends",
+    "code": "FAILED TO CONNECT",
+    "aliases": [
+      "failed to connect",
+      "unable to connect to server",
+      "LoL failed to connect"
+    ],
+    "category": "Connection failure",
+    "summary": "Failed to connect errors are commonly associated with local network filtering, Riot service incidents, or stale client sessions.",
+    "likelyCauses": [
+      "Riot services or route to the game server may be degraded.",
+      "Firewall, VPN, proxy, DNS, or router settings may block the game connection.",
+      "The local client session may be stale.",
+      "Security software may be prompting silently or blocking the game process."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for League of Legends before changing local settings.",
+      "Close League of Legends and Riot Client completely from Task Manager, then relaunch.",
+      "Restart the PC and router to clear stale network sessions.",
+      "Update League of Legends through the official Riot Client.",
+      "Temporarily disconnect VPN or proxy software.",
+      "Check firewall prompts and allow official Riot executables.",
+      "Allow League of Legends and Riot Client through Windows Firewall without disabling firewall protection permanently.",
+      "Use the official Riot Client repair flow if the problem persists."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "League of Legends Riot Client FAILED TO CONNECT official support",
+      "League of Legends Riot Client FAILED TO CONNECT service status",
+      "League of Legends Riot Client FAILED TO CONNECT troubleshooting",
+      "Microsoft Windows game troubleshooting FAILED TO CONNECT"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com League of Legends Riot Client FAILED TO CONNECT",
+      "site:reddit.com League of Legends Riot Client FAILED TO CONNECT fixed"
+    ],
+    "youtubeSearchQueries": [
+      "League of Legends Riot Client FAILED TO CONNECT safe fix",
+      "League of Legends Riot Client FAILED TO CONNECT official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "League of Legends Riot Client FAILED TO CONNECT safe troubleshooting",
+      "League of Legends Riot Client FAILED TO CONNECT official fix community reports"
+    ]
+  },
+  {
+    "game": "League of Legends",
+    "code": "UNEXPECTED ERROR WITH LOGIN SESSION",
+    "aliases": [
+      "unexpected error with login session",
+      "LoL login session error",
+      "Riot Client login session error"
+    ],
+    "category": "Authentication or session",
+    "summary": "This login-session error is commonly associated with stale Riot Client authentication state or temporary Riot login service problems.",
+    "likelyCauses": [
+      "Riot authentication services may be degraded.",
+      "The Riot Client login token may be stale.",
+      "Multiple client processes may be stuck in the background.",
+      "Local network changes may have interrupted authentication."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for League of Legends before changing local settings.",
+      "Close League of Legends and Riot Client completely from Task Manager, then relaunch.",
+      "Restart the PC and router to clear stale network sessions.",
+      "Update League of Legends through the official Riot Client.",
+      "Sign out of Riot Client and sign back in.",
+      "Clear only official client cache through supported repair or reset steps if documented by Riot.",
+      "Allow League of Legends and Riot Client through Windows Firewall without disabling firewall protection permanently.",
+      "Use the official Riot Client repair flow if the problem persists."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "League of Legends Riot Client UNEXPECTED ERROR WITH LOGIN SESSION official support",
+      "League of Legends Riot Client UNEXPECTED ERROR WITH LOGIN SESSION service status",
+      "League of Legends Riot Client UNEXPECTED ERROR WITH LOGIN SESSION troubleshooting",
+      "Microsoft Windows game troubleshooting UNEXPECTED ERROR WITH LOGIN SESSION"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com League of Legends Riot Client UNEXPECTED ERROR WITH LOGIN SESSION",
+      "site:reddit.com League of Legends Riot Client UNEXPECTED ERROR WITH LOGIN SESSION fixed"
+    ],
+    "youtubeSearchQueries": [
+      "League of Legends Riot Client UNEXPECTED ERROR WITH LOGIN SESSION safe fix",
+      "League of Legends Riot Client UNEXPECTED ERROR WITH LOGIN SESSION official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "League of Legends Riot Client UNEXPECTED ERROR WITH LOGIN SESSION safe troubleshooting",
+      "League of Legends Riot Client UNEXPECTED ERROR WITH LOGIN SESSION official fix community reports"
+    ]
+  },
+  {
+    "game": "League of Legends",
+    "code": "RIOT CLIENT NOT OPENING",
+    "aliases": [
+      "Riot Client not opening",
+      "League client not opening",
+      "Riot Client will not launch"
+    ],
+    "category": "Launcher startup",
+    "summary": "Riot Client not opening may be related to stuck background processes, pending updates, damaged launcher files, or local security prompts.",
+    "likelyCauses": [
+      "Riot Client may already be running in a stuck background state.",
+      "A pending update or restart may be required.",
+      "Security software may be blocking launcher startup.",
+      "Launcher files may need official repair."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for League of Legends before changing local settings.",
+      "Close League of Legends and Riot Client completely from Task Manager, then relaunch.",
+      "Restart the PC and router to clear stale network sessions.",
+      "Update League of Legends through the official Riot Client.",
+      "End Riot Client and League processes from Task Manager, then relaunch.",
+      "Run Riot Client as administrator once if normal launch fails.",
+      "Reinstall Riot Client only from the official Riot download page if repair fails.",
+      "Allow League of Legends and Riot Client through Windows Firewall without disabling firewall protection permanently.",
+      "Use the official Riot Client repair flow if the problem persists."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "League of Legends Riot Client RIOT CLIENT NOT OPENING official support",
+      "League of Legends Riot Client RIOT CLIENT NOT OPENING service status",
+      "League of Legends Riot Client RIOT CLIENT NOT OPENING troubleshooting",
+      "Microsoft Windows game troubleshooting RIOT CLIENT NOT OPENING"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com League of Legends Riot Client RIOT CLIENT NOT OPENING",
+      "site:reddit.com League of Legends Riot Client RIOT CLIENT NOT OPENING fixed"
+    ],
+    "youtubeSearchQueries": [
+      "League of Legends Riot Client RIOT CLIENT NOT OPENING safe fix",
+      "League of Legends Riot Client RIOT CLIENT NOT OPENING official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "League of Legends Riot Client RIOT CLIENT NOT OPENING safe troubleshooting",
+      "League of Legends Riot Client RIOT CLIENT NOT OPENING official fix community reports"
+    ]
+  },
+  {
+    "game": "League of Legends",
+    "code": "CLIENT STUCK ON LOADING",
+    "aliases": [
+      "League client stuck on loading",
+      "LoL client loading forever",
+      "League loading spinner"
+    ],
+    "category": "Client startup or cache",
+    "summary": "A League client stuck on loading is often reported with stale client state, stuck background processes, or temporary service problems.",
+    "likelyCauses": [
+      "Riot Client or League processes may be stuck.",
+      "Client cache or update state may be stale.",
+      "Riot services may be degraded.",
+      "Firewall or DNS settings may interrupt client requests."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for League of Legends before changing local settings.",
+      "Close League of Legends and Riot Client completely from Task Manager, then relaunch.",
+      "Restart the PC and router to clear stale network sessions.",
+      "Update League of Legends through the official Riot Client.",
+      "Wait a few minutes if Riot status shows an incident.",
+      "Restart Riot Client and PC.",
+      "Use official repair if the loading state persists.",
+      "Allow League of Legends and Riot Client through Windows Firewall without disabling firewall protection permanently.",
+      "Use the official Riot Client repair flow if the problem persists."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "League of Legends Riot Client CLIENT STUCK ON LOADING official support",
+      "League of Legends Riot Client CLIENT STUCK ON LOADING service status",
+      "League of Legends Riot Client CLIENT STUCK ON LOADING troubleshooting",
+      "Microsoft Windows game troubleshooting CLIENT STUCK ON LOADING"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com League of Legends Riot Client CLIENT STUCK ON LOADING",
+      "site:reddit.com League of Legends Riot Client CLIENT STUCK ON LOADING fixed"
+    ],
+    "youtubeSearchQueries": [
+      "League of Legends Riot Client CLIENT STUCK ON LOADING safe fix",
+      "League of Legends Riot Client CLIENT STUCK ON LOADING official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "League of Legends Riot Client CLIENT STUCK ON LOADING safe troubleshooting",
+      "League of Legends Riot Client CLIENT STUCK ON LOADING official fix community reports"
+    ]
+  },
+  {
+    "game": "League of Legends",
+    "code": "PATCHER STUCK OR UPDATE FAILED",
+    "aliases": [
+      "patcher stuck",
+      "update failed",
+      "League patcher stuck",
+      "LoL update failed"
+    ],
+    "category": "Patching or update",
+    "summary": "Patcher stuck or update failed states may be related to interrupted downloads, disk permission problems, service incidents, or damaged local patch files.",
+    "likelyCauses": [
+      "Riot patch servers may be degraded.",
+      "Network filtering may interrupt downloads.",
+      "The game folder may have permission or disk space issues.",
+      "Local patch files may be incomplete."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for League of Legends before changing local settings.",
+      "Close League of Legends and Riot Client completely from Task Manager, then relaunch.",
+      "Restart the PC and router to clear stale network sessions.",
+      "Update League of Legends through the official Riot Client.",
+      "Check available disk space.",
+      "Restart Riot Client as administrator once if the patcher cannot write files.",
+      "Try a stable non-VPN connection during patching.",
+      "Allow League of Legends and Riot Client through Windows Firewall without disabling firewall protection permanently.",
+      "Use the official Riot Client repair flow if the problem persists."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "League of Legends Riot Client PATCHER STUCK OR UPDATE FAILED official support",
+      "League of Legends Riot Client PATCHER STUCK OR UPDATE FAILED service status",
+      "League of Legends Riot Client PATCHER STUCK OR UPDATE FAILED troubleshooting",
+      "Microsoft Windows game troubleshooting PATCHER STUCK OR UPDATE FAILED"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com League of Legends Riot Client PATCHER STUCK OR UPDATE FAILED",
+      "site:reddit.com League of Legends Riot Client PATCHER STUCK OR UPDATE FAILED fixed"
+    ],
+    "youtubeSearchQueries": [
+      "League of Legends Riot Client PATCHER STUCK OR UPDATE FAILED safe fix",
+      "League of Legends Riot Client PATCHER STUCK OR UPDATE FAILED official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "League of Legends Riot Client PATCHER STUCK OR UPDATE FAILED safe troubleshooting",
+      "League of Legends Riot Client PATCHER STUCK OR UPDATE FAILED official fix community reports"
+    ]
+  },
+  {
+    "game": "League of Legends",
+    "code": "DIRECTX OR GRAPHICS INITIALIZATION ERROR",
+    "aliases": [
+      "DirectX error",
+      "graphics initialization error",
+      "LoL DirectX error",
+      "could not initialize graphics device"
+    ],
+    "category": "Graphics runtime",
+    "summary": "DirectX or graphics initialization errors are commonly associated with GPU driver problems, display mode issues, or missing Windows graphics components.",
+    "likelyCauses": [
+      "GPU drivers may be outdated or unstable.",
+      "Windows graphics components may need updates.",
+      "Overlays or capture tools may interfere with initialization.",
+      "Game configuration may request an unsupported display mode."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for League of Legends before changing local settings.",
+      "Close League of Legends and Riot Client completely from Task Manager, then relaunch.",
+      "Restart the PC and router to clear stale network sessions.",
+      "Update League of Legends through the official Riot Client.",
+      "Install Windows updates.",
+      "Update GPU drivers from official vendor sites.",
+      "Temporarily close overlays and capture tools.",
+      "Reset League graphics configuration using official repair or documented config steps.",
+      "Allow League of Legends and Riot Client through Windows Firewall without disabling firewall protection permanently.",
+      "Use the official Riot Client repair flow if the problem persists."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "League of Legends Riot Client DIRECTX OR GRAPHICS INITIALIZATION ERROR official support",
+      "League of Legends Riot Client DIRECTX OR GRAPHICS INITIALIZATION ERROR service status",
+      "League of Legends Riot Client DIRECTX OR GRAPHICS INITIALIZATION ERROR troubleshooting",
+      "Microsoft Windows game troubleshooting DIRECTX OR GRAPHICS INITIALIZATION ERROR"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com League of Legends Riot Client DIRECTX OR GRAPHICS INITIALIZATION ERROR",
+      "site:reddit.com League of Legends Riot Client DIRECTX OR GRAPHICS INITIALIZATION ERROR fixed"
+    ],
+    "youtubeSearchQueries": [
+      "League of Legends Riot Client DIRECTX OR GRAPHICS INITIALIZATION ERROR safe fix",
+      "League of Legends Riot Client DIRECTX OR GRAPHICS INITIALIZATION ERROR official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "League of Legends Riot Client DIRECTX OR GRAPHICS INITIALIZATION ERROR safe troubleshooting",
+      "League of Legends Riot Client DIRECTX OR GRAPHICS INITIALIZATION ERROR official fix community reports"
     ]
   }
 ]

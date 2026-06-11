@@ -1,0 +1,6 @@
+npm run analyze -- --game minecraft --code "Exit Code 1"
+
+Expected output:
+
+CrashQuest analyzed Minecraft Java Edition EXIT CODE 1
+Report written to: C:\path\to\crashquest\reports\minecraft-exit-code-1-report.md

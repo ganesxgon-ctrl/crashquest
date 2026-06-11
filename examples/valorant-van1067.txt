@@ -1,0 +1,6 @@
+npm run analyze -- --game valorant --code "VAN 1067"
+
+Expected output:
+
+CrashQuest analyzed Valorant VAN 1067
+Report written to: C:\path\to\crashquest\reports\valorant-van-1067-report.md

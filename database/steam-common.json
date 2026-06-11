@@ -2,7 +2,11 @@
   {
     "game": "Steam Common",
     "code": "0XC000007B",
-    "aliases": ["0xc000007b", "The application was unable to start correctly 0xc000007b", "Steam game 0xc000007b"],
+    "aliases": [
+      "0xc000007b",
+      "The application was unable to start correctly 0xc000007b",
+      "Steam game 0xc000007b"
+    ],
     "category": "Windows runtime dependency",
     "summary": "Error 0xc000007b usually indicates a Windows application failed to load compatible runtime components, often because of missing, damaged, or mismatched Visual C++, DirectX, or .NET dependencies.",
     "likelyCauses": [
@@ -42,6 +46,474 @@
     "googleSearchQueries": [
       "Steam 0xc000007b safe fix Visual C++ DirectX",
       "The application was unable to start correctly 0xc000007b Steam game"
+    ]
+  },
+  {
+    "game": "Steam Common",
+    "code": "MISSING EXECUTABLE",
+    "aliases": [
+      "missing executable",
+      "Steam missing executable"
+    ],
+    "category": "Game installation or platform support",
+    "summary": "Steam missing executable is commonly associated with an incomplete install, quarantined executable, unsupported platform, or depot download problem.",
+    "likelyCauses": [
+      "Game files may be incomplete or still updating.",
+      "Security software may have quarantined the executable.",
+      "The game may not support the current operating system.",
+      "Steam library metadata may be stale."
+    ],
+    "safeFixes": [
+      "Restart Steam and the PC before making deeper changes.",
+      "Check Steam status and the game publisher status page if the problem may be service-related.",
+      "Update Steam and the affected game through the official client.",
+      "Use Steam Verify integrity of game files for the affected game.",
+      "Check whether the game supports the current OS.",
+      "Review antivirus quarantine history without disabling protection permanently.",
+      "Clear Steam download cache using Steam settings if verification fails.",
+      "Check Windows Update and restart if updates were installed."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files or replacement game executables from unofficial sites.",
+      "Do not run unknown registry files or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete Steam library folders before backing up saves and checking Steam repair options.",
+      "Do not enter Steam credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Steam game MISSING EXECUTABLE official support",
+      "Steam game MISSING EXECUTABLE service status",
+      "Steam game MISSING EXECUTABLE troubleshooting",
+      "Microsoft Windows game troubleshooting MISSING EXECUTABLE"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Steam game MISSING EXECUTABLE",
+      "site:reddit.com Steam game MISSING EXECUTABLE fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Steam game MISSING EXECUTABLE safe fix",
+      "Steam game MISSING EXECUTABLE official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Steam game MISSING EXECUTABLE safe troubleshooting",
+      "Steam game MISSING EXECUTABLE official fix community reports"
+    ]
+  },
+  {
+    "game": "Steam Common",
+    "code": "APP ALREADY RUNNING",
+    "aliases": [
+      "app already running",
+      "Steam app already running",
+      "game already running"
+    ],
+    "category": "Stuck process",
+    "summary": "App already running is often reported when Steam believes a game process is still active after a crash or failed shutdown.",
+    "likelyCauses": [
+      "The game executable may still be running in the background.",
+      "Steam overlay or launcher helper process may be stuck.",
+      "Cloud sync or shutdown tasks may not have finished.",
+      "The game may have crashed without clearing Steam state."
+    ],
+    "safeFixes": [
+      "Restart Steam and the PC before making deeper changes.",
+      "Check Steam status and the game publisher status page if the problem may be service-related.",
+      "Update Steam and the affected game through the official client.",
+      "Use Steam Verify integrity of game files for the affected game.",
+      "Use Task Manager to close the affected game process only.",
+      "Exit and reopen Steam.",
+      "Wait for cloud sync to finish before relaunching.",
+      "Check Windows Update and restart if updates were installed."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files or replacement game executables from unofficial sites.",
+      "Do not run unknown registry files or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete Steam library folders before backing up saves and checking Steam repair options.",
+      "Do not enter Steam credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Steam game APP ALREADY RUNNING official support",
+      "Steam game APP ALREADY RUNNING service status",
+      "Steam game APP ALREADY RUNNING troubleshooting",
+      "Microsoft Windows game troubleshooting APP ALREADY RUNNING"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Steam game APP ALREADY RUNNING",
+      "site:reddit.com Steam game APP ALREADY RUNNING fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Steam game APP ALREADY RUNNING safe fix",
+      "Steam game APP ALREADY RUNNING official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Steam game APP ALREADY RUNNING safe troubleshooting",
+      "Steam game APP ALREADY RUNNING official fix community reports"
+    ]
+  },
+  {
+    "game": "Steam Common",
+    "code": "DISK WRITE ERROR",
+    "aliases": [
+      "disk write error",
+      "Steam disk write error"
+    ],
+    "category": "Storage write failure",
+    "summary": "Steam disk write error is commonly associated with storage permission issues, full disks, interrupted downloads, or security software blocking writes.",
+    "likelyCauses": [
+      "The Steam library drive may be full or read-only.",
+      "A file may be locked by another process.",
+      "Security software may be blocking writes to the library.",
+      "Disk or file system errors may interrupt downloads."
+    ],
+    "safeFixes": [
+      "Restart Steam and the PC before making deeper changes.",
+      "Check Steam status and the game publisher status page if the problem may be service-related.",
+      "Update Steam and the affected game through the official client.",
+      "Use Steam Verify integrity of game files for the affected game.",
+      "Check free disk space on the Steam library drive.",
+      "Restart Steam as administrator once if the library is in a protected folder.",
+      "Review antivirus quarantine or controlled-folder-access settings without disabling protection permanently.",
+      "Use Steam repair library folder if available.",
+      "Run Windows disk checking tools only after backing up important data.",
+      "Check Windows Update and restart if updates were installed."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files or replacement game executables from unofficial sites.",
+      "Do not run unknown registry files or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete Steam library folders before backing up saves and checking Steam repair options.",
+      "Do not enter Steam credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Steam game DISK WRITE ERROR official support",
+      "Steam game DISK WRITE ERROR service status",
+      "Steam game DISK WRITE ERROR troubleshooting",
+      "Microsoft Windows game troubleshooting DISK WRITE ERROR"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Steam game DISK WRITE ERROR",
+      "site:reddit.com Steam game DISK WRITE ERROR fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Steam game DISK WRITE ERROR safe fix",
+      "Steam game DISK WRITE ERROR official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Steam game DISK WRITE ERROR safe troubleshooting",
+      "Steam game DISK WRITE ERROR official fix community reports"
+    ]
+  },
+  {
+    "game": "Steam Common",
+    "code": "CONTENT FILE LOCKED",
+    "aliases": [
+      "content file locked",
+      "Steam content file locked"
+    ],
+    "category": "Locked update file",
+    "summary": "Content file locked is often reported when Steam cannot replace or update a game file because another process or security tool has locked it.",
+    "likelyCauses": [
+      "The game or launcher process may still be running.",
+      "Security software may be scanning or quarantining a file.",
+      "The library folder may have permission issues.",
+      "A previous update may have left a stale lock."
+    ],
+    "safeFixes": [
+      "Restart Steam and the PC before making deeper changes.",
+      "Check Steam status and the game publisher status page if the problem may be service-related.",
+      "Update Steam and the affected game through the official client.",
+      "Use Steam Verify integrity of game files for the affected game.",
+      "Close the game and launcher processes from Task Manager.",
+      "Restart Steam and try the update again.",
+      "Review security software history without turning protection off permanently.",
+      "Use Steam repair library folder if available.",
+      "Check Windows Update and restart if updates were installed."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files or replacement game executables from unofficial sites.",
+      "Do not run unknown registry files or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete Steam library folders before backing up saves and checking Steam repair options.",
+      "Do not enter Steam credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Steam game CONTENT FILE LOCKED official support",
+      "Steam game CONTENT FILE LOCKED service status",
+      "Steam game CONTENT FILE LOCKED troubleshooting",
+      "Microsoft Windows game troubleshooting CONTENT FILE LOCKED"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Steam game CONTENT FILE LOCKED",
+      "site:reddit.com Steam game CONTENT FILE LOCKED fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Steam game CONTENT FILE LOCKED safe fix",
+      "Steam game CONTENT FILE LOCKED official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Steam game CONTENT FILE LOCKED safe troubleshooting",
+      "Steam game CONTENT FILE LOCKED official fix community reports"
+    ]
+  },
+  {
+    "game": "Steam Common",
+    "code": "STEAM CLOUD SYNC ERROR",
+    "aliases": [
+      "cloud sync error",
+      "Steam cloud sync error",
+      "Steam unable to sync"
+    ],
+    "category": "Cloud sync",
+    "summary": "Steam Cloud sync errors are commonly associated with network interruptions, service problems, or conflicting local and cloud save states.",
+    "likelyCauses": [
+      "Steam Cloud services may be temporarily unavailable.",
+      "The local network may block Steam connections.",
+      "Local save files and cloud saves may conflict.",
+      "The game may have closed before save upload completed."
+    ],
+    "safeFixes": [
+      "Restart Steam and the PC before making deeper changes.",
+      "Check Steam status and the game publisher status page if the problem may be service-related.",
+      "Update Steam and the affected game through the official client.",
+      "Use Steam Verify integrity of game files for the affected game.",
+      "Check Steam status before changing local files.",
+      "Keep a backup of local saves before resolving conflicts.",
+      "Retry on a stable network.",
+      "Let Steam finish syncing before launching the game again.",
+      "Check Windows Update and restart if updates were installed."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files or replacement game executables from unofficial sites.",
+      "Do not run unknown registry files or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete Steam library folders before backing up saves and checking Steam repair options.",
+      "Do not enter Steam credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Steam game STEAM CLOUD SYNC ERROR official support",
+      "Steam game STEAM CLOUD SYNC ERROR service status",
+      "Steam game STEAM CLOUD SYNC ERROR troubleshooting",
+      "Microsoft Windows game troubleshooting STEAM CLOUD SYNC ERROR"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Steam game STEAM CLOUD SYNC ERROR",
+      "site:reddit.com Steam game STEAM CLOUD SYNC ERROR fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Steam game STEAM CLOUD SYNC ERROR safe fix",
+      "Steam game STEAM CLOUD SYNC ERROR official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Steam game STEAM CLOUD SYNC ERROR safe troubleshooting",
+      "Steam game STEAM CLOUD SYNC ERROR official fix community reports"
+    ]
+  },
+  {
+    "game": "Steam Common",
+    "code": "FAILED TO START GAME UNKNOWN ERROR",
+    "aliases": [
+      "failed to start game unknown error",
+      "Steam failed to start game unknown error",
+      "unknown error launching game"
+    ],
+    "category": "Generic launch failure",
+    "summary": "Steam failed to start game unknown error is a broad launch failure commonly associated with damaged files, missing runtimes, permissions, or launcher conflicts.",
+    "likelyCauses": [
+      "Game files may be damaged or incomplete.",
+      "Required runtimes may be missing.",
+      "The game launcher may be blocked by permissions or security software.",
+      "Overlays or background tools may interfere with startup."
+    ],
+    "safeFixes": [
+      "Restart Steam and the PC before making deeper changes.",
+      "Check Steam status and the game publisher status page if the problem may be service-related.",
+      "Update Steam and the affected game through the official client.",
+      "Use Steam Verify integrity of game files for the affected game.",
+      "Install official Microsoft Visual C++ Redistributable packages if the game requires them.",
+      "Install official DirectX runtime components from Microsoft for older games.",
+      "Temporarily close overlays and capture tools.",
+      "Check Windows Update and restart if updates were installed."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files or replacement game executables from unofficial sites.",
+      "Do not run unknown registry files or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete Steam library folders before backing up saves and checking Steam repair options.",
+      "Do not enter Steam credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Steam game FAILED TO START GAME UNKNOWN ERROR official support",
+      "Steam game FAILED TO START GAME UNKNOWN ERROR service status",
+      "Steam game FAILED TO START GAME UNKNOWN ERROR troubleshooting",
+      "Microsoft Windows game troubleshooting FAILED TO START GAME UNKNOWN ERROR"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Steam game FAILED TO START GAME UNKNOWN ERROR",
+      "site:reddit.com Steam game FAILED TO START GAME UNKNOWN ERROR fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Steam game FAILED TO START GAME UNKNOWN ERROR safe fix",
+      "Steam game FAILED TO START GAME UNKNOWN ERROR official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Steam game FAILED TO START GAME UNKNOWN ERROR safe troubleshooting",
+      "Steam game FAILED TO START GAME UNKNOWN ERROR official fix community reports"
+    ]
+  },
+  {
+    "game": "Steam Common",
+    "code": "INVALID PLATFORM",
+    "aliases": [
+      "invalid platform",
+      "Steam invalid platform"
+    ],
+    "category": "Unsupported platform",
+    "summary": "Steam invalid platform usually indicates the selected game build is not available for the current operating system or device platform.",
+    "likelyCauses": [
+      "The game may not support the current OS.",
+      "Steam may have selected an incompatible branch or depot.",
+      "Compatibility settings may be incorrect.",
+      "The library entry may need a client refresh."
+    ],
+    "safeFixes": [
+      "Restart Steam and the PC before making deeper changes.",
+      "Check Steam status and the game publisher status page if the problem may be service-related.",
+      "Update Steam and the affected game through the official client.",
+      "Use Steam Verify integrity of game files for the affected game.",
+      "Confirm supported platforms on the Steam store page and publisher support pages.",
+      "Disable custom compatibility settings unless the publisher recommends them.",
+      "Opt out of beta branches if the issue started after joining one.",
+      "Check Windows Update and restart if updates were installed."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files or replacement game executables from unofficial sites.",
+      "Do not run unknown registry files or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete Steam library folders before backing up saves and checking Steam repair options.",
+      "Do not enter Steam credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Steam game INVALID PLATFORM official support",
+      "Steam game INVALID PLATFORM service status",
+      "Steam game INVALID PLATFORM troubleshooting",
+      "Microsoft Windows game troubleshooting INVALID PLATFORM"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Steam game INVALID PLATFORM",
+      "site:reddit.com Steam game INVALID PLATFORM fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Steam game INVALID PLATFORM safe fix",
+      "Steam game INVALID PLATFORM official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Steam game INVALID PLATFORM safe troubleshooting",
+      "Steam game INVALID PLATFORM official fix community reports"
+    ]
+  },
+  {
+    "game": "Steam Common",
+    "code": "CONNECTION TIMEOUT",
+    "aliases": [
+      "connection timeout",
+      "Steam connection timeout",
+      "timed out connecting to Steam"
+    ],
+    "category": "Network connectivity",
+    "summary": "Steam connection timeout is commonly associated with service incidents, unstable local networking, firewall rules, VPNs, or regional routing problems.",
+    "likelyCauses": [
+      "Steam services may be degraded.",
+      "The local network may be unstable.",
+      "Firewall, VPN, proxy, or DNS settings may block Steam traffic.",
+      "Router state may need a restart."
+    ],
+    "safeFixes": [
+      "Restart Steam and the PC before making deeper changes.",
+      "Check Steam status and the game publisher status page if the problem may be service-related.",
+      "Update Steam and the affected game through the official client.",
+      "Use Steam Verify integrity of game files for the affected game.",
+      "Restart the router and PC.",
+      "Temporarily disconnect VPN or proxy software.",
+      "Allow Steam through Windows Firewall without disabling firewall protection permanently.",
+      "Check Windows Update and restart if updates were installed."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files or replacement game executables from unofficial sites.",
+      "Do not run unknown registry files or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete Steam library folders before backing up saves and checking Steam repair options.",
+      "Do not enter Steam credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Steam game CONNECTION TIMEOUT official support",
+      "Steam game CONNECTION TIMEOUT service status",
+      "Steam game CONNECTION TIMEOUT troubleshooting",
+      "Microsoft Windows game troubleshooting CONNECTION TIMEOUT"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Steam game CONNECTION TIMEOUT",
+      "site:reddit.com Steam game CONNECTION TIMEOUT fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Steam game CONNECTION TIMEOUT safe fix",
+      "Steam game CONNECTION TIMEOUT official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Steam game CONNECTION TIMEOUT safe troubleshooting",
+      "Steam game CONNECTION TIMEOUT official fix community reports"
+    ]
+  },
+  {
+    "game": "Steam Common",
+    "code": "CORRUPT UPDATE FILES",
+    "aliases": [
+      "corrupt update files",
+      "Steam corrupt update files"
+    ],
+    "category": "Download or patch corruption",
+    "summary": "Corrupt update files are often reported when a download or patch is interrupted, cached incorrectly, or written to unstable storage.",
+    "likelyCauses": [
+      "Steam download cache may be stale.",
+      "Network interruption may corrupt a patch download.",
+      "Storage errors or insufficient space may affect update files.",
+      "Security software may interrupt file writes."
+    ],
+    "safeFixes": [
+      "Restart Steam and the PC before making deeper changes.",
+      "Check Steam status and the game publisher status page if the problem may be service-related.",
+      "Update Steam and the affected game through the official client.",
+      "Use Steam Verify integrity of game files for the affected game.",
+      "Clear Steam download cache using Steam settings.",
+      "Try a different Steam download region.",
+      "Check free disk space and drive health indicators.",
+      "Verify game files after the update completes.",
+      "Check Windows Update and restart if updates were installed."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not download random DLL files or replacement game executables from unofficial sites.",
+      "Do not run unknown registry files or all-in-one fixer tools.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not delete Steam library folders before backing up saves and checking Steam repair options.",
+      "Do not enter Steam credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Steam game CORRUPT UPDATE FILES official support",
+      "Steam game CORRUPT UPDATE FILES service status",
+      "Steam game CORRUPT UPDATE FILES troubleshooting",
+      "Microsoft Windows game troubleshooting CORRUPT UPDATE FILES"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Steam game CORRUPT UPDATE FILES",
+      "site:reddit.com Steam game CORRUPT UPDATE FILES fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Steam game CORRUPT UPDATE FILES safe fix",
+      "Steam game CORRUPT UPDATE FILES official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Steam game CORRUPT UPDATE FILES safe troubleshooting",
+      "Steam game CORRUPT UPDATE FILES official fix community reports"
     ]
   }
 ]

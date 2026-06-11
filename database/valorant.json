@@ -2,7 +2,11 @@
   {
     "game": "Valorant",
     "code": "VAN 9003",
-    "aliases": ["VAN9003", "Vanguard VAN 9003", "This build of Vanguard requires secure boot"],
+    "aliases": [
+      "VAN9003",
+      "Vanguard VAN 9003",
+      "This build of Vanguard requires secure boot"
+    ],
     "category": "Anti-cheat platform requirements",
     "summary": "VAN 9003 is commonly associated with Riot Vanguard requiring Windows security features such as Secure Boot and TPM 2.0 to be enabled and correctly detected.",
     "likelyCauses": [
@@ -47,7 +51,11 @@
   {
     "game": "Valorant",
     "code": "VAN 1067",
-    "aliases": ["VAN1067", "Vanguard VAN 1067", "Valorant connection error VAN 1067"],
+    "aliases": [
+      "VAN1067",
+      "Vanguard VAN 1067",
+      "Valorant connection error VAN 1067"
+    ],
     "category": "Anti-cheat service or platform integrity",
     "summary": "VAN 1067 is often reported when Riot Vanguard cannot keep its required service or platform checks stable while Valorant is running.",
     "likelyCauses": [
@@ -87,6 +95,483 @@
     "googleSearchQueries": [
       "Valorant VAN 1067 safe troubleshooting",
       "VAN1067 Vanguard service Windows fix"
+    ]
+  },
+  {
+    "game": "Valorant",
+    "code": "VAN 84",
+    "aliases": [
+      "VAN84",
+      "Vanguard VAN 84",
+      "Valorant VAN 84 connection error"
+    ],
+    "category": "Riot Vanguard or platform service",
+    "summary": "VAN 84 is commonly associated with a Valorant or Vanguard connectivity problem, often during service incidents or unstable local network sessions.",
+    "likelyCauses": [
+      "Riot services or regional routing may be having an incident.",
+      "The Riot Client session may be stale after sleep, network changes, or a restart.",
+      "Firewall, VPN, proxy, or DNS settings may be interfering with Riot services.",
+      "Vanguard or Riot Client may need a clean restart."
+    ],
+    "safeFixes": [
+      "Restart the PC and launch Valorant again before changing system settings.",
+      "Check Riot Games service status for active Valorant or Riot Client incidents.",
+      "Update Valorant and Riot Client through the official launcher.",
+      "Install pending Windows updates and restart.",
+      "Check that Riot Vanguard is installed and the vgc service can start normally.",
+      "Restart the router or switch to a stable wired connection if available.",
+      "Temporarily disconnect VPN or proxy software and retry.",
+      "Repair or reinstall Riot Vanguard using Riot official client flows only, then restart."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Valorant Riot Vanguard VAN 84 official support",
+      "Valorant Riot Vanguard VAN 84 service status",
+      "Valorant Riot Vanguard VAN 84 troubleshooting",
+      "Microsoft Windows game troubleshooting VAN 84"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Valorant Riot Vanguard VAN 84",
+      "site:reddit.com Valorant Riot Vanguard VAN 84 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Valorant Riot Vanguard VAN 84 safe fix",
+      "Valorant Riot Vanguard VAN 84 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Valorant Riot Vanguard VAN 84 safe troubleshooting",
+      "Valorant Riot Vanguard VAN 84 official fix community reports"
+    ]
+  },
+  {
+    "game": "Valorant",
+    "code": "VAN 81",
+    "aliases": [
+      "VAN81",
+      "Vanguard VAN 81",
+      "Valorant VAN 81 service error"
+    ],
+    "category": "Riot Vanguard or platform service",
+    "summary": "VAN 81 is often reported when Riot Vanguard or Riot Client services fail to initialize or communicate correctly.",
+    "likelyCauses": [
+      "Riot Vanguard service may be stopped or blocked.",
+      "Riot Client may not have started cleanly.",
+      "A pending update or restart may be blocking the anti-cheat service.",
+      "Security software may be interfering with Vanguard service startup."
+    ],
+    "safeFixes": [
+      "Restart the PC and launch Valorant again before changing system settings.",
+      "Check Riot Games service status for active Valorant or Riot Client incidents.",
+      "Update Valorant and Riot Client through the official launcher.",
+      "Install pending Windows updates and restart.",
+      "Check that Riot Vanguard is installed and the vgc service can start normally.",
+      "Open Windows Services only to confirm the vgc service status; avoid changing unknown services.",
+      "Check firewall or antivirus quarantine history without disabling protection permanently.",
+      "Repair or reinstall Riot Vanguard using Riot official client flows only, then restart."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Valorant Riot Vanguard VAN 81 official support",
+      "Valorant Riot Vanguard VAN 81 service status",
+      "Valorant Riot Vanguard VAN 81 troubleshooting",
+      "Microsoft Windows game troubleshooting VAN 81"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Valorant Riot Vanguard VAN 81",
+      "site:reddit.com Valorant Riot Vanguard VAN 81 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Valorant Riot Vanguard VAN 81 safe fix",
+      "Valorant Riot Vanguard VAN 81 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Valorant Riot Vanguard VAN 81 safe troubleshooting",
+      "Valorant Riot Vanguard VAN 81 official fix community reports"
+    ]
+  },
+  {
+    "game": "Valorant",
+    "code": "VAL 5",
+    "aliases": [
+      "VAL5",
+      "Valorant VAL 5",
+      "VALORANT error code 5"
+    ],
+    "category": "Riot Client or Valorant session",
+    "summary": "VAL 5 is commonly associated with Riot account session conflicts, sign-in state problems, or the same account being active elsewhere.",
+    "likelyCauses": [
+      "The Riot account session may be active on another device.",
+      "The Riot Client login session may be stale.",
+      "Riot services may be having an authentication incident.",
+      "Local network changes may have interrupted the session."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for active incidents before changing local settings.",
+      "Restart Valorant, Riot Client, and the PC.",
+      "Update Valorant and Riot Client through the official launcher.",
+      "Sign out of Riot Client, sign back in, and try launching again.",
+      "Close overlays, VPNs, proxies, and unnecessary background tools temporarily.",
+      "Sign out of Riot Client on other devices if applicable.",
+      "Reset the Riot Client session by signing out and back in.",
+      "Allow Riot Client and Valorant through Windows Firewall without disabling firewall protection permanently."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Valorant Riot Client VAL 5 official support",
+      "Valorant Riot Client VAL 5 service status",
+      "Valorant Riot Client VAL 5 troubleshooting",
+      "Microsoft Windows game troubleshooting VAL 5"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Valorant Riot Client VAL 5",
+      "site:reddit.com Valorant Riot Client VAL 5 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Valorant Riot Client VAL 5 safe fix",
+      "Valorant Riot Client VAL 5 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Valorant Riot Client VAL 5 safe troubleshooting",
+      "Valorant Riot Client VAL 5 official fix community reports"
+    ]
+  },
+  {
+    "game": "Valorant",
+    "code": "VAL 43",
+    "aliases": [
+      "VAL43",
+      "Valorant VAL 43",
+      "error retrieving platform"
+    ],
+    "category": "Riot Client or Valorant session",
+    "summary": "VAL 43 is often reported when Valorant cannot retrieve platform or Riot Client session information.",
+    "likelyCauses": [
+      "Riot Client may have failed to load required session data.",
+      "Riot services may be unavailable or degraded.",
+      "The local Riot Client cache may be stale.",
+      "VPN, proxy, or firewall settings may be blocking platform requests."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for active incidents before changing local settings.",
+      "Restart Valorant, Riot Client, and the PC.",
+      "Update Valorant and Riot Client through the official launcher.",
+      "Sign out of Riot Client, sign back in, and try launching again.",
+      "Close overlays, VPNs, proxies, and unnecessary background tools temporarily.",
+      "Fully close Riot Client from Task Manager and relaunch.",
+      "Try a standard non-VPN connection.",
+      "Allow Riot Client and Valorant through Windows Firewall without disabling firewall protection permanently."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Valorant Riot Client VAL 43 official support",
+      "Valorant Riot Client VAL 43 service status",
+      "Valorant Riot Client VAL 43 troubleshooting",
+      "Microsoft Windows game troubleshooting VAL 43"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Valorant Riot Client VAL 43",
+      "site:reddit.com Valorant Riot Client VAL 43 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Valorant Riot Client VAL 43 safe fix",
+      "Valorant Riot Client VAL 43 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Valorant Riot Client VAL 43 safe troubleshooting",
+      "Valorant Riot Client VAL 43 official fix community reports"
+    ]
+  },
+  {
+    "game": "Valorant",
+    "code": "VAL 51",
+    "aliases": [
+      "VAL51",
+      "Valorant VAL 51",
+      "Valorant party system error"
+    ],
+    "category": "Riot Client or Valorant session",
+    "summary": "VAL 51 is commonly associated with party, platform, or session service communication failures.",
+    "likelyCauses": [
+      "Riot platform or party services may be degraded.",
+      "The party session may be stale.",
+      "Riot Client may need a restart.",
+      "Local network filtering may be blocking Riot service traffic."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for active incidents before changing local settings.",
+      "Restart Valorant, Riot Client, and the PC.",
+      "Update Valorant and Riot Client through the official launcher.",
+      "Sign out of Riot Client, sign back in, and try launching again.",
+      "Close overlays, VPNs, proxies, and unnecessary background tools temporarily.",
+      "Leave and recreate the party if the client allows it.",
+      "Ask party members to restart their clients if the issue affects only one party.",
+      "Allow Riot Client and Valorant through Windows Firewall without disabling firewall protection permanently."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Valorant Riot Client VAL 51 official support",
+      "Valorant Riot Client VAL 51 service status",
+      "Valorant Riot Client VAL 51 troubleshooting",
+      "Microsoft Windows game troubleshooting VAL 51"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Valorant Riot Client VAL 51",
+      "site:reddit.com Valorant Riot Client VAL 51 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Valorant Riot Client VAL 51 safe fix",
+      "Valorant Riot Client VAL 51 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Valorant Riot Client VAL 51 safe troubleshooting",
+      "Valorant Riot Client VAL 51 official fix community reports"
+    ]
+  },
+  {
+    "game": "Valorant",
+    "code": "VAL 59",
+    "aliases": [
+      "VAL59",
+      "Valorant VAL 59",
+      "Valorant login queue fetch token failure"
+    ],
+    "category": "Riot Client or Valorant session",
+    "summary": "VAL 59 is often reported with login queue, session, or Riot Client startup problems.",
+    "likelyCauses": [
+      "Riot authentication or queue services may be temporarily unavailable.",
+      "Riot Client may have a stale login token.",
+      "A local network or DNS issue may be blocking authentication.",
+      "A pending Riot Client update may require restart."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for active incidents before changing local settings.",
+      "Restart Valorant, Riot Client, and the PC.",
+      "Update Valorant and Riot Client through the official launcher.",
+      "Sign out of Riot Client, sign back in, and try launching again.",
+      "Close overlays, VPNs, proxies, and unnecessary background tools temporarily.",
+      "Sign out and back into Riot Client.",
+      "Restart the router if other Riot services also fail.",
+      "Allow Riot Client and Valorant through Windows Firewall without disabling firewall protection permanently."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Valorant Riot Client VAL 59 official support",
+      "Valorant Riot Client VAL 59 service status",
+      "Valorant Riot Client VAL 59 troubleshooting",
+      "Microsoft Windows game troubleshooting VAL 59"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Valorant Riot Client VAL 59",
+      "site:reddit.com Valorant Riot Client VAL 59 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Valorant Riot Client VAL 59 safe fix",
+      "Valorant Riot Client VAL 59 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Valorant Riot Client VAL 59 safe troubleshooting",
+      "Valorant Riot Client VAL 59 official fix community reports"
+    ]
+  },
+  {
+    "game": "Valorant",
+    "code": "VAL 62",
+    "aliases": [
+      "VAL62",
+      "Valorant VAL 62",
+      "Valorant no gamepods available"
+    ],
+    "category": "Riot Client or Valorant session",
+    "summary": "VAL 62 is commonly associated with Valorant platform availability, game server allocation, or regional service issues.",
+    "likelyCauses": [
+      "Riot services in the selected region may be degraded.",
+      "The client may be unable to allocate a game server session.",
+      "Network filtering may be blocking region or platform endpoints.",
+      "A stale client session may need to be refreshed."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for active incidents before changing local settings.",
+      "Restart Valorant, Riot Client, and the PC.",
+      "Update Valorant and Riot Client through the official launcher.",
+      "Sign out of Riot Client, sign back in, and try launching again.",
+      "Close overlays, VPNs, proxies, and unnecessary background tools temporarily.",
+      "Check whether friends in the same region can queue normally.",
+      "Wait and retry if Riot service status shows an incident.",
+      "Allow Riot Client and Valorant through Windows Firewall without disabling firewall protection permanently."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Valorant Riot Client VAL 62 official support",
+      "Valorant Riot Client VAL 62 service status",
+      "Valorant Riot Client VAL 62 troubleshooting",
+      "Microsoft Windows game troubleshooting VAL 62"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Valorant Riot Client VAL 62",
+      "site:reddit.com Valorant Riot Client VAL 62 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Valorant Riot Client VAL 62 safe fix",
+      "Valorant Riot Client VAL 62 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Valorant Riot Client VAL 62 safe troubleshooting",
+      "Valorant Riot Client VAL 62 official fix community reports"
+    ]
+  },
+  {
+    "game": "Valorant",
+    "code": "VAL 1",
+    "aliases": [
+      "VAL1",
+      "Valorant VAL 1",
+      "Valorant connection error 1"
+    ],
+    "category": "Riot Client or Valorant session",
+    "summary": "VAL 1 is a broad Valorant connection error that may be related to client startup, account session, or local network state.",
+    "likelyCauses": [
+      "Riot Client may not have initialized correctly.",
+      "The account session may be stale.",
+      "Local firewall, VPN, proxy, or DNS settings may be interfering.",
+      "Riot services may be temporarily unavailable."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for active incidents before changing local settings.",
+      "Restart Valorant, Riot Client, and the PC.",
+      "Update Valorant and Riot Client through the official launcher.",
+      "Sign out of Riot Client, sign back in, and try launching again.",
+      "Close overlays, VPNs, proxies, and unnecessary background tools temporarily.",
+      "Restart the router if multiple online games are affected.",
+      "Check firewall rules for Riot Client and Valorant.",
+      "Allow Riot Client and Valorant through Windows Firewall without disabling firewall protection permanently."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Valorant Riot Client VAL 1 official support",
+      "Valorant Riot Client VAL 1 service status",
+      "Valorant Riot Client VAL 1 troubleshooting",
+      "Microsoft Windows game troubleshooting VAL 1"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Valorant Riot Client VAL 1",
+      "site:reddit.com Valorant Riot Client VAL 1 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Valorant Riot Client VAL 1 safe fix",
+      "Valorant Riot Client VAL 1 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Valorant Riot Client VAL 1 safe troubleshooting",
+      "Valorant Riot Client VAL 1 official fix community reports"
+    ]
+  },
+  {
+    "game": "Valorant",
+    "code": "VAL 19",
+    "aliases": [
+      "VAL19",
+      "Valorant VAL 19",
+      "Valorant platform connection error"
+    ],
+    "category": "Riot Client or Valorant session",
+    "summary": "VAL 19 is often reported when Valorant has trouble connecting to Riot platform services or maintaining the client session.",
+    "likelyCauses": [
+      "Riot platform services may be degraded.",
+      "Riot Client may have a stale or corrupted session state.",
+      "Local network filtering may block platform traffic.",
+      "Background overlays or network tools may interfere with launch."
+    ],
+    "safeFixes": [
+      "Check Riot Games service status for active incidents before changing local settings.",
+      "Restart Valorant, Riot Client, and the PC.",
+      "Update Valorant and Riot Client through the official launcher.",
+      "Sign out of Riot Client, sign back in, and try launching again.",
+      "Close overlays, VPNs, proxies, and unnecessary background tools temporarily.",
+      "Fully exit Riot Client from Task Manager before relaunching.",
+      "Temporarily close network filtering tools, overlays, or VPNs and retry.",
+      "Allow Riot Client and Valorant through Windows Firewall without disabling firewall protection permanently."
+    ],
+    "riskyFixesToAvoid": [
+      "Do not install unofficial Riot Client or Vanguard builds.",
+      "Do not run unknown registry files or service-reset scripts.",
+      "Do not disable antivirus or firewall protection permanently.",
+      "Do not bypass Vanguard, modify anti-cheat files, or use unofficial patchers.",
+      "Do not change BIOS or Secure Boot settings without reading official motherboard or device documentation.",
+      "Do not enter Riot account credentials into third-party troubleshooting tools."
+    ],
+    "officialSearchQueries": [
+      "Valorant Riot Client VAL 19 official support",
+      "Valorant Riot Client VAL 19 service status",
+      "Valorant Riot Client VAL 19 troubleshooting",
+      "Microsoft Windows game troubleshooting VAL 19"
+    ],
+    "redditSearchQueries": [
+      "site:reddit.com Valorant Riot Client VAL 19",
+      "site:reddit.com Valorant Riot Client VAL 19 fixed"
+    ],
+    "youtubeSearchQueries": [
+      "Valorant Riot Client VAL 19 safe fix",
+      "Valorant Riot Client VAL 19 official troubleshooting"
+    ],
+    "googleSearchQueries": [
+      "Valorant Riot Client VAL 19 safe troubleshooting",
+      "Valorant Riot Client VAL 19 official fix community reports"
     ]
   }
 ]

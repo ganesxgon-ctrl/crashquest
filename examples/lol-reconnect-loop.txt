@@ -1,0 +1,6 @@
+npm run analyze -- --game "league of legends" --code "reconnect loop"
+
+Expected output:
+
+CrashQuest analyzed League of Legends RECONNECT LOOP
+Report written to: C:\path\to\crashquest\reports\league-of-legends-reconnect-loop-report.md

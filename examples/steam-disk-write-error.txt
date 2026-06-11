@@ -1,0 +1,6 @@
+npm run analyze -- --game steam --code "disk write error"
+
+Expected output:
+
+CrashQuest analyzed Steam Common DISK WRITE ERROR
+Report written to: C:\path\to\crashquest\reports\steam-common-disk-write-error-report.md
